@@ -1,0 +1,1946 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>الدرس ٧-٣: كتابة قائمة بالنتائج المحتملة (فضاء الإمكانات) | رياضيات الصف الثامن - مدرسة محمد بن القاسم الثقفي</title>
+<meta name="description" content="درس تفاعلي متكامل مقسم إلى حصتين (٣٥ دقيقة لكل حصة) للصف الثامن الأساسي بسلطنة عُمان من إعداد أ/ عماد جابر: فضاء الإمكانات لرمي حجري نرد (٣٦ نتيجة متنافية)، الجداول ذات الاتجاهين للعمليات، الدوّارات، سحب الأقلام، لعبة حجر ورقة مقص، أنشطة التمايز، ومسابقات صفية تفاعلية.">
+
+<!-- Open Graph & Social Media Preview Tags (WhatsApp, Facebook, X/Twitter) -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_OM">
+<meta property="og:site_name" content="مدرسة محمد بن القاسم الثقفي (٥-١٠) · سلطنة عُمان">
+<meta property="og:title" content="الدرس ٧-٣: كتابة قائمة بالنتائج المحتملة (فضاء الإمكانات) | رياضيات الصف الثامن">
+<meta property="og:description" content="درس تفاعلي متكامل مقسم إلى حصتين (٣٥ دقيقة لكل حصة) من إعداد أ/ عماد جابر: جداول فضاء الإمكانات (٣٦ نتيجة)، الجداول ذات الاتجاهين للجمع والضرب، أنشطة التمايز، ومسابقات صفية.">
+<meta property="og:image" content="data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='630' viewBox='0 0 1200 630'%3E%3Cdefs%3E%3ClinearGradient id='bg' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0%25' stop-color='%230F1D36'/%3E%3Cstop offset='55%25' stop-color='%23162A4C'/%3E%3Cstop offset='100%25' stop-color='%23115E59'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='1200' height='630' fill='url(%23bg)'/%3E%3Crect x='28' y='28' width='1144' height='574' rx='28' fill='none' stroke='%23F0A445' stroke-width='4' stroke-opacity='0.65'/%3E%3Crect x='95' y='130' width='140' height='140' rx='24' fill='%23C1435A' stroke='%23FFFFFF' stroke-width='3'/%3E%3Ccircle cx='135' cy='170' r='11' fill='%23FFFFFF'/%3E%3Ccircle cx='195' cy='170' r='11' fill='%23FFFFFF'/%3E%3Ccircle cx='165' cy='200' r='11' fill='%23FFFFFF'/%3E%3Ccircle cx='135' cy='230' r='11' fill='%23FFFFFF'/%3E%3Ccircle cx='195' cy='230' r='11' fill='%23FFFFFF'/%3E%3Crect x='265' y='130' width='140' height='140' rx='24' fill='%233556A8' stroke='%23FFFFFF' stroke-width='3'/%3E%3Ccircle cx='305' cy='170' r='11' fill='%23FFFFFF'/%3E%3Ccircle cx='365' cy='170' r='11' fill='%23FFFFFF'/%3E%3Ccircle cx='305' cy='230' r='11' fill='%23FFFFFF'/%3E%3Ccircle cx='365' cy='230' r='11' fill='%23FFFFFF'/%3E%3Crect x='95' y='305' width='310' height='190' rx='22' fill='rgba(255,255,255,0.09)' stroke='%233AB1A6' stroke-width='2'/%3E%3Ctext x='250' y='362' text-anchor='middle' fill='%23F0A445' font-family='Tahoma,sans-serif' font-weight='bold' font-size='28'%3Eفضاء الإمكانات = ٣٦ نتيجة%3C/text%3E%3Ctext x='170' y='418' text-anchor='middle' fill='%23FFFFFF' font-family='Tahoma,sans-serif' font-weight='bold' font-size='28'%3E١%3C/text%3E%3Cline x1='145' y1='430' x2='195' y2='430' stroke='%23F0A445' stroke-width='3'/%3E%3Ctext x='170' y='466' text-anchor='middle' fill='%23FFFFFF' font-family='Tahoma,sans-serif' font-weight='bold' font-size='28'%3E٣٦%3C/text%3E%3Ctext x='305' y='440' text-anchor='middle' fill='%23FFFFFF' font-family='Tahoma,sans-serif' font-weight='bold' font-size='24'%3Eاحتمال كل زوج =%3C/text%3E%3Ctext x='1130' y='96' text-anchor='end' fill='%23F0A445' font-family='Tahoma,sans-serif' font-weight='bold' font-size='26'%3Eسلطنة عُمان · وزارة التعليم · الصف الثامن الأساسي%3C/text%3E%3Ctext x='1130' y='152' text-anchor='end' fill='%233AB1A6' font-family='Tahoma,sans-serif' font-weight='bold' font-size='28'%3Eالوحدة السابعة · الدرس ٧-٣ (حصتان × ٣٥ دقيقة)%3C/text%3E%3Ctext x='1130' y='235' text-anchor='end' fill='%23FFFFFF' font-family='Tahoma,sans-serif' font-weight='bold' font-size='52'%3Eكتابة قائمة بالنتائج المحتملة%3C/text%3E%3Ctext x='1130' y='305' text-anchor='end' fill='%23F0A445' font-family='Tahoma,sans-serif' font-weight='bold' font-size='44'%3E(فضاء الإمكانات)%3C/text%3E%3Ctext x='1130' y='372' text-anchor='end' fill='rgba(255,255,255,0.88)' font-family='Tahoma,sans-serif' font-size='24'%3Eجداول حجري النرد · الجداول ذات الاتجاهين · أنشطة التمايز · مسابقات صفية%3C/text%3E%3Crect x='445' y='430' width='685' height='125' rx='18' fill='rgba(240,164,69,0.16)' stroke='%23F0A445' stroke-width='2'/%3E%3Ctext x='1105' y='482' text-anchor='end' fill='%23F0A445' font-family='Tahoma,sans-serif' font-weight='bold' font-size='29'%3Eإعداد وتصميم: أ/ عماد جابر%3C/text%3E%3Ctext x='1105' y='528' text-anchor='end' fill='%23FFFFFF' font-family='Tahoma,sans-serif' font-weight='bold' font-size='24'%3Eمدرسة محمد بن القاسم الثقفي (٥-١٠) · محافظة ظفار%3C/text%3E%3C/svg%3E">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="الدرس ٧-٣: كتابة قائمة بالنتائج المحتملة (فضاء الإمكانات) - إعداد أ/ عماد جابر">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="الدرس ٧-٣: كتابة قائمة بالنتائج المحتملة (فضاء الإمكانات) | رياضيات الصف الثامن">
+<meta name="twitter:description" content="درس تفاعلي متكامل مقسم إلى حصتين (٣٥ دقيقة لكل حصة) من إعداد أ/ عماد جابر: جداول فضاء الإمكانات (٣٦ نتيجة)، الجداول ذات الاتجاهين للجمع والضرب، أنشطة التمايز، ومسابقات صفية.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;800;900&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap">
+<style>
+:root{
+  --paper:#EEF2F7; --card:#FFFFFF; --ink:#13233F; --muted:#56627A; --line:#D3DAE6; --dot:#C3CCDB;
+  --accent:#D9861C; --accent-ink:#FFFFFF; --teal:#11766F; --maroon:#9E2639; --soft:#F6F8FB;
+  --good:#1D8048; --good-bg:#E3F3E9; --bad:#BC322B; --bad-bg:#FBE6E4;
+  --f1:#D9861C; --f2:#11766F; --f3:#9E2639; --f4:#3556A8; --f5:#6E4597; --f6:#58902A;
+  --display:"Cairo","IBM Plex Sans Arabic",Tahoma,sans-serif;
+  --body:"IBM Plex Sans Arabic",Tahoma,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0D1524; --card:#152038; --ink:#E7ECF5; --muted:#9AA7BF; --line:#2A3755; --dot:#26324C;
+  --accent:#F0A445; --accent-ink:#1A1205; --teal:#3AB1A6; --maroon:#E0677C; --soft:#1A2642;
+  --good:#52C584; --good-bg:#16352A; --bad:#F16D62; --bad-bg:#3A1C1F;
+  --f1:#E39530; --f2:#1E9389; --f3:#C1435A; --f4:#4C70C8; --f5:#8A63B5; --f6:#6FA93A;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0D1524; --card:#152038; --ink:#E7ECF5; --muted:#9AA7BF; --line:#2A3755; --dot:#26324C;
+  --accent:#F0A445; --accent-ink:#1A1205; --teal:#3AB1A6; --maroon:#E0677C; --soft:#1A2642;
+  --good:#52C584; --good-bg:#16352A; --bad:#F16D62; --bad-bg:#3A1C1F;
+  --f1:#E39530; --f2:#1E9389; --f3:#C1435A; --f4:#4C70C8; --f5:#8A63B5; --f6:#6FA93A;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;padding:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.75;direction:rtl;
+  background-image:radial-gradient(var(--dot) 1.2px,transparent 1.3px);background-size:22px 22px}
+.page{max-width:1140px;margin:0 auto;padding:12px 16px 60px}
+h1,h2,h3{font-family:var(--display);font-weight:800;line-height:1.35;margin:0;letter-spacing:0}
+p{margin:0}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+a{color:var(--teal)}
+.num{font-variant-numeric:tabular-nums}
+
+/* Vertical Fraction Component (Strictly No Slashes) */
+.frac{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;line-height:1.12;margin:0 4px;font-variant-numeric:tabular-nums;font-weight:700}
+.frac>span:first-child{border-bottom:1.6px solid currentColor;padding:0 5px 2px}
+.frac>span:last-child{padding:2px 5px 0}
+.frac.lg{font-size:1.12em}
+
+/* Header */
+.top{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:20px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px;margin-top:6px;position:relative}
+.author-badge{position:absolute;top:16px;left:18px;text-align:left;background:var(--soft);border:1px solid var(--line);padding:6px 14px;border-radius:12px;font-size:13.5px}
+.author-badge b{display:block;font-family:var(--display);font-weight:800;font-size:15.5px;color:var(--maroon)}
+.org{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:14px;color:var(--muted);font-weight:600;padding-left:205px}
+.org b{color:var(--ink)}
+.lessonno{display:inline-block;font-family:var(--display);font-weight:800;color:var(--accent);font-size:17px;margin-top:14px}
+.top h1{font-size:clamp(24px,3.8vw,35px);margin-top:4px;color:var(--ink)}
+.top .lead{color:var(--muted);margin-top:8px;max-width:56ch}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.pill{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:3px 12px;font-size:13px;background:var(--soft);font-weight:600}
+.theme-btn{border:1px solid var(--line);background:var(--soft);border-radius:999px;padding:3px 12px;font-size:13px;font-weight:600}
+@media (max-width:860px){
+  .top{grid-template-columns:1fr}
+  .author-badge{position:static;margin-bottom:10px;text-align:right;display:inline-block}
+  .org{padding-left:0}
+}
+
+/* Hero Canvas */
+.hero-box{position:relative;height:275px;border-radius:16px;background:radial-gradient(circle at 50% 55%,var(--soft),transparent 72%);display:grid;place-items:center;overflow:hidden;border:1px solid var(--line)}
+#heroCanvas{width:100%;height:100%;display:block}
+.hero-cap{position:absolute;bottom:8px;font-size:13px;font-weight:700;color:var(--teal);background:var(--card);padding:4px 14px;border-radius:999px;border:1px solid var(--line);display:flex;align-items:center;gap:6px}
+
+/* Master Session Switcher (2 Prominent Tabs) */
+.master-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+@media (max-width:740px){.master-tabs{grid-template-columns:1fr}}
+.m-tab{border:2.5px solid var(--line);background:var(--card);border-radius:16px;padding:15px 18px;text-align:start;display:grid;gap:5px;transition:all .18s;position:relative;box-shadow:0 4px 12px rgba(0,0,0,.03)}
+.m-tab:hover{border-color:var(--accent)}
+.m-tab .m-top{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.m-tab .m-badge{font-size:12.5px;font-weight:700;padding:2px 10px;border-radius:999px;background:var(--soft);border:1px solid var(--line);color:var(--muted);flex:none}
+.m-tab b{font-family:var(--display);font-weight:800;font-size:18px;color:var(--ink)}
+.m-tab span.m-sub{font-size:13.5px;color:var(--muted);line-height:1.55}
+.m-tab.on{border-color:var(--teal);background:linear-gradient(135deg,var(--card),rgba(17,118,111,.08));box-shadow:0 6px 20px rgba(17,118,111,.14)}
+.m-tab.on b{color:var(--teal)}
+.m-tab.on .m-badge{background:var(--teal);color:#fff;border-color:var(--teal)}
+.m-tab[data-session="2"].on{border-color:var(--accent);background:linear-gradient(135deg,var(--card),rgba(217,134,28,.1));box-shadow:0 6px 20px rgba(217,134,28,.14)}
+.m-tab[data-session="2"].on b{color:var(--accent)}
+.m-tab[data-session="2"].on .m-badge{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+
+/* Sticky Nav */
+.nav{position:sticky;top:6px;z-index:20;margin:12px 0 6px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:thin;box-shadow:0 4px 16px rgba(0,0,0,.05)}
+.nav a{flex:none;text-decoration:none;color:var(--ink);font-size:13.5px;font-weight:600;padding:6px 11px;border-radius:9px;white-space:nowrap}
+.nav a:hover,.nav a.on{background:var(--accent);color:var(--accent-ink)}
+.nav .nav-s-pill{flex:none;display:inline-flex;align-items:center;padding:4px 10px;border-radius:9px;font-size:12.5px;font-weight:800;background:var(--ink);color:var(--paper);margin-inline-end:4px}
+
+/* Session Panels */
+.session-pane[hidden]{display:none!important}
+
+/* Sections & Cards */
+.sec{margin-top:26px;scroll-margin-top:68px}
+.sec-h{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.sec-h .n{flex:none;width:38px;height:38px;border-radius:10px;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--display);font-weight:800;font-size:18px}
+.sec-h h2{font-size:clamp(20px,2.8vw,25px)}
+.sec-h small{display:block;color:var(--muted);font-family:var(--body);font-size:13.5px;font-weight:500;margin-top:2px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.split{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:16px}
+@media (max-width:780px){.grid2,.grid3,.split{grid-template-columns:1fr}}
+.card h3{font-size:19px;margin-bottom:8px}
+.muted{color:var(--muted)}
+.olist{margin:0;padding-inline-start:22px;display:grid;gap:6px}
+.olist li::marker{color:var(--accent);font-weight:700}
+
+/* Buttons & Controls */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;border:1px solid var(--line);background:var(--soft);border-radius:10px;padding:8px 14px;font-weight:600;font-size:14.5px;min-height:40px}
+.btn:hover{border-color:var(--accent)}
+.btn.pri{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.dark{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.btn.on{background:var(--teal);color:#fff;border-color:var(--teal)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.seg button{border:none;background:var(--card);padding:7px 12px;font-weight:600;font-size:13.5px;border-inline-end:1px solid var(--line)}
+.seg button:last-child{border-inline-end:none}
+.seg button.on{background:var(--ink);color:var(--paper)}
+
+/* Interactive Sample Space Matrix (6x6 Dice) */
+.ss-table{width:100%;border-collapse:collapse;text-align:center;font-size:13.5px;font-variant-numeric:tabular-nums}
+.ss-table th{background:var(--accent);color:var(--accent-ink);padding:7px 4px;border:1px solid var(--line);font-family:var(--display);font-weight:800}
+.ss-table th.row-h{background:var(--teal);color:#fff}
+.ss-table td{padding:7px 4px;border:1px solid var(--line);background:var(--card);font-weight:700;cursor:pointer;transition:all .15s;user-select:none}
+.ss-table td:hover{border-color:var(--accent)}
+.ss-table td.hl{background:var(--teal);color:#fff;border-color:var(--teal);transform:scale(1.03)}
+.ss-table td.picked{outline:3px solid var(--maroon);outline-offset:-2px;z-index:2;position:relative}
+.red-num{color:#D63031;font-weight:800}
+.blue-num{color:#2563EB;font-weight:800}
+.ss-table td.hl .red-num,.ss-table td.hl .blue-num{color:#FFF}
+
+/* Interactive Two-Way Tables (Session 2) */
+.tw-table{width:100%;border-collapse:collapse;text-align:center;font-size:14px;font-variant-numeric:tabular-nums}
+.tw-table th{background:var(--ink);color:var(--paper);padding:7px 5px;border:1px solid var(--line);font-family:var(--display);font-weight:700}
+.tw-table th.sub-h{background:var(--soft);color:var(--ink);font-weight:800}
+.tw-table td{padding:7px 5px;border:1px solid var(--line);background:var(--card);font-weight:600;cursor:pointer;transition:all .15s;user-select:none}
+.tw-table td:hover{border-color:var(--accent)}
+.tw-table td.hl{background:var(--accent);color:var(--accent-ink);font-weight:800}
+.tw-table td.imp{background:var(--bad-bg);color:var(--maroon);font-weight:800;cursor:not-allowed}
+
+/* Differentiation Tabs & Cards */
+.diff-tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+@media (max-width:640px){.diff-tabs{grid-template-columns:1fr}}
+.diff-tab{border:2px solid var(--line);background:var(--card);border-radius:14px;padding:12px;text-align:start;display:grid;gap:4px;transition:transform .15s}
+.diff-tab b{font-family:var(--display);font-weight:800;font-size:16.5px}
+.diff-tab span{font-size:13px;color:var(--muted)}
+.diff-tab.t1.on{border-color:var(--good);background:var(--good-bg)}
+.diff-tab.t2.on{border-color:var(--accent);background:rgba(217,134,28,.12)}
+.diff-tab.t3.on{border-color:var(--maroon);background:rgba(158,38,57,.12)}
+.diff-panel{display:grid;gap:14px}
+.diff-task{border:1px solid var(--line);background:var(--soft);border-radius:14px;padding:14px;display:grid;gap:10px}
+.diff-task .tag{display:inline-block;padding:2px 10px;border-radius:999px;font-size:12.5px;font-weight:700;width:fit-content}
+.tag.g{background:var(--good-bg);color:var(--good)}
+.tag.m{background:rgba(217,134,28,.18);color:var(--accent)}
+.tag.h{background:var(--bad-bg);color:var(--maroon)}
+.scaff-box{background:var(--card);border-inline-start:4px solid var(--teal);padding:8px 12px;border-radius:8px;font-size:14px}
+
+/* Fraction Input Box */
+.frac-inp{display:inline-flex;flex-direction:column;align-items:center;vertical-align:middle;margin:0 4px;background:var(--card);padding:4px 6px;border-radius:10px;border:1px solid var(--line)}
+.frac-inp input{width:56px;text-align:center;padding:3px;border:1.5px solid var(--line);border-radius:6px;background:var(--soft);color:var(--ink);font:inherit;font-weight:700;font-size:14px}
+.frac-inp .bar{width:100%;height:2px;background:var(--ink);margin:3px 0}
+.frac-inp.ok{border-color:var(--good);background:var(--good-bg)}
+.frac-inp.no{border-color:var(--bad);background:var(--bad-bg)}
+
+/* Criteria */
+.crit{display:flex;gap:10px;align-items:flex-start;padding:8px 10px;border-radius:10px;border:1px solid transparent;text-align:start;background:none;width:100%}
+.crit .box{flex:none;width:22px;height:22px;border-radius:6px;border:2px solid var(--teal);margin-top:3px;display:grid;place-items:center;font-size:14px;color:var(--card)}
+.crit[aria-pressed="true"] .box{background:var(--teal)}
+.crit[aria-pressed="true"]{background:var(--soft);border-color:var(--line)}
+
+/* Vocab & Formula Box */
+.vocab{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.term{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:8px;align-content:start}
+.term b{font-family:var(--display);font-weight:800;font-size:18.5px;color:var(--maroon)}
+.formula-banner{background:var(--soft);border:1.5px solid var(--teal);border-radius:12px;padding:12px 14px;font-weight:700;color:var(--teal);text-align:center;font-size:16px;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:6px}
+
+/* Flip Cards */
+.flips{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.flip{min-height:132px;border-radius:14px;border:1px solid var(--line);background:var(--card);padding:14px;text-align:start;display:grid;gap:8px;align-content:start}
+.flip .q{font-weight:700}
+.flip .a{color:var(--teal);font-weight:700}
+.flip .hint{font-size:13px;color:var(--muted)}
+
+/* Warmup Sort */
+.items{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:12px}
+.item{border:1px solid var(--line);border-radius:14px;background:var(--card);padding:14px;display:grid;gap:8px;justify-items:center;text-align:center}
+.item .btn{font-size:14px;padding:6px 12px;min-height:38px}
+.fb{font-size:14px;font-weight:600;min-height:1.5em}
+.fb.ok{color:var(--good)} .fb.no{color:var(--bad)}
+
+/* Flow */
+.flow{display:grid;gap:10px}
+.step{display:grid;grid-template-columns:92px minmax(0,1fr);gap:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.step .t{font-family:var(--display);font-weight:800;color:var(--accent);font-size:15px;line-height:1.3}
+.step .t span{display:block;font-size:26px;color:var(--ink)}
+.step h3{font-size:18px}
+.step .roles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:6px;font-size:14.5px}
+.step .roles div{background:var(--soft);border-radius:10px;padding:8px 10px}
+.step .roles b{display:block;font-size:13px;color:var(--muted)}
+@media (max-width:600px){.step{grid-template-columns:1fr}.step .roles{grid-template-columns:1fr}}
+
+/* Stats & Verdicts */
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:10px}
+.stat{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:8px;text-align:center}
+.stat b{display:block;font-family:var(--display);font-weight:800;font-size:20px;color:var(--accent)}
+.stat small{font-size:12.5px;color:var(--muted);font-weight:600}
+
+.verdict{border-radius:12px;padding:10px 14px;font-weight:600;background:var(--soft);border:1px solid var(--line)}
+.verdict.ok{background:var(--good-bg);color:var(--good);border-color:transparent}
+.verdict.no{background:var(--bad-bg);color:var(--bad);border-color:transparent}
+
+/* Quizzes */
+.quiz{display:grid;gap:12px}
+.qq{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.qq .qt{font-weight:700;display:flex;gap:8px;align-items:baseline}
+.qq .qt .k{flex:none;color:var(--accent);font-family:var(--display)}
+.opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:10px}
+@media (max-width:540px){.opts{grid-template-columns:1fr}}
+.opt{text-align:start;border:1.5px solid var(--line);background:var(--soft);border-radius:10px;padding:8px 12px;display:flex;gap:10px;align-items:center;font-weight:500}
+.opt .l{flex:none;width:26px;height:26px;border-radius:50%;background:var(--card);border:1px solid var(--line);display:grid;place-items:center;font-weight:700;font-size:14px}
+.opt.sel{border-color:var(--ink)}
+.opt.sel .l{background:var(--ink);color:var(--paper)}
+.opt.right{border-color:var(--good);background:var(--good-bg)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.why{margin-top:10px;font-size:14.5px;padding:8px 12px;border-radius:10px;background:var(--soft);border-inline-start:4px solid var(--teal)}
+.score{font-family:var(--display);font-weight:800;font-size:19px}
+.result{border-radius:14px;padding:16px;background:var(--ink);color:var(--paper);display:grid;gap:6px}
+.result b{font-family:var(--display);font-size:30px;color:var(--accent)}
+
+/* Competition */
+.comp{background:var(--ink);color:var(--paper);border-radius:18px;padding:18px;--cline:rgba(255,255,255,.18)}
+.comp:fullscreen{overflow:auto;padding:28px}
+.comp .card{background:rgba(255,255,255,.06);border-color:var(--cline);color:var(--paper)}
+.comp input,.comp select{background:rgba(255,255,255,.1);color:var(--paper);border:1px solid var(--cline);border-radius:8px;padding:6px 10px;font:inherit;min-width:0}
+.comp .btn{background:rgba(255,255,255,.1);border-color:var(--cline);color:var(--paper)}
+.comp .btn.pri{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.comp .muted{color:rgba(255,255,255,.72)}
+.ghead{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;align-items:center}
+.timer{height:10px;border-radius:99px;background:rgba(255,255,255,.12);overflow:hidden;margin:10px 0}
+.timer i{display:block;height:100%;background:var(--accent);width:100%;transition:width .25s linear}
+.cq{font-family:var(--display);font-weight:800;font-size:clamp(19px,2.8vw,25px);margin:8px 0}
+.copts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.copt{border:1px solid var(--cline);border-radius:10px;padding:8px 12px;display:flex;gap:10px;align-items:center;font-weight:600}
+.copt .l{width:28px;height:28px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;flex:none}
+.copt.right{background:var(--good);color:#fff;border-color:var(--good)}
+.groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-top:14px}
+.gp{border:1px solid var(--cline);border-radius:12px;padding:10px;display:grid;gap:8px}
+.gp .gn{display:flex;justify-content:space-between;font-weight:700}
+.gp .gb{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.gp .gb button{border:1px solid var(--cline);background:rgba(255,255,255,.08);color:var(--paper);border-radius:8px;min-height:42px;font-weight:700;font-size:18px}
+.gp .gb button.pick{background:var(--accent);color:var(--accent-ink)}
+.gp .st{font-size:13.5px;min-height:1.5em}
+.gp.ok{border-color:var(--good);box-shadow:inset 0 0 0 1px var(--good)}
+.gp.no{border-color:var(--bad)}
+.board{width:100%;border-collapse:collapse;font-size:15px}
+.board th,.board td{padding:8px;border-bottom:1px solid var(--cline);text-align:start}
+.board tr.win td{color:var(--accent);font-weight:700}
+
+/* Overlay & Confetti */
+.overlay{position:fixed;inset:0;z-index:50;background:rgba(8,14,28,.88);display:grid;place-items:center;padding:24px;text-align:center;color:#fff}
+.overlay[hidden]{display:none!important}
+.overlay h2{font-size:clamp(34px,8vw,72px);color:#F0A445}
+.overlay p{font-size:clamp(18px,3vw,26px)}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:51}
+
+/* Homework */
+.field{display:grid;gap:4px}
+.field label{font-weight:600;font-size:14px}
+.field input,.field textarea{font:inherit;color:var(--ink);background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:8px 10px;width:100%}
+.field textarea{min-height:74px;resize:vertical}
+.mail{display:flex;flex-wrap:wrap;gap:8px;align-items:center;background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+.mail code{font-size:16px;font-weight:700;direction:ltr;user-select:all;color:var(--maroon)}
+pre.msg{white-space:pre-wrap;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:12px;font-family:var(--body);font-size:14px;max-height:260px;overflow:auto;margin:0}
+
+/* Mind Map */
+.mm-wrap{overflow-x:auto;background:var(--card);border:1px solid var(--line);border-radius:16px}
+.mm-wrap svg{display:block;min-width:820px;width:100%;height:auto}
+
+/* Game */
+.game-card{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:10px}
+.game-opts{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+
+/* Spinner & Coin Visuals */
+.spin-box{display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:center;padding:10px}
+.spin-svg{width:130px;height:130px}
+
+.foot{margin-top:36px;text-align:center;color:var(--muted);font-size:14px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<div class="page">
+
+<!-- Header -->
+<header class="top">
+  <div class="author-badge">
+    <span>مدرسة محمد بن القاسم الثقفي (٥-١٠)</span>
+    <b>إعداد وتصميم: أ/ عماد جابر</b>
+  </div>
+  <div>
+    <div class="org"><span><b>سلطنة عُمان</b></span><span>وزارة التعليم</span><span>محافظة ظفار</span></div>
+    <span class="lessonno">الدرس ٧-٣ · الوحدة السابعة · الاحتمالات</span>
+    <h1>كتابة قائمة بالنتائج المحتملة (فضاء الإمكانات)</h1>
+    <p class="lead">درس تفاعلي متكامل مقسم إلى حصتين (٣٥ دقيقة لكل حصة) للصف الثامن الأساسي: نبني جداول فضاء الإمكانات للنتائج المتنافية، ونحسب الاحتمالات في صورة كسور مبسّطة لتجارب حجري النرد والعملات والدوّارات والسحب دون إرجاع.</p>
+    <div class="meta">
+      <span class="pill">الصف الثامن</span>
+      <span class="pill">حصتان · ٣٥ دقيقة لكل حصة</span>
+      <span class="pill">مراعاة التمايز وتفريد التعليم</span>
+      <button class="theme-btn" id="themeToggle">المظهر: تلقائي</button>
+    </div>
+  </div>
+  <div class="hero-box">
+    <canvas id="heroCanvas" aria-label="محاكاة لحجر نرد أحمر وحجر نرد أزرق وفضاء الإمكانات المكون من ٣٦ نتيجة"></canvas>
+    <span class="hero-cap" id="heroCap">حجرا نرد (أحمر، أزرق): فضاء الإمكانات = ٣٦ نتيجة · احتمال كل زوج = <span class="frac"><span>١</span><span>٣٦</span></span></span>
+  </div>
+</header>
+
+<!-- Master Session Switcher (2 Prominent Tabs) -->
+<div class="master-tabs" id="masterTabs" role="tablist" aria-label="اختيار الحصة الدراسية">
+  <button class="m-tab on" data-session="1" role="tab" aria-selected="true">
+    <div class="m-top">
+      <b>📘 الحصة الأولى (٣٥ دقيقة): فضاء الإمكانات لرمي حجري نرد معاً (٣٦ نتيجة)</b>
+      <span class="m-badge">الحصة ١ / ٢</span>
+    </div>
+    <span class="m-sub">التهيئة (لغز مها ١١ إجمالي مقابل ٣٦ نتيجة)، التعلم القبلي، المفردات، مختبر جدول الأزواج المرتبة (٦×٦) وجدول المجاميع (مثال ٧-٣)، التمايز (١-٤)، المسابقة، والواجب.</span>
+  </button>
+  <button class="m-tab" data-session="2" role="tab" aria-selected="false">
+    <div class="m-top">
+      <b>📙 الحصة الثانية (٣٥ دقيقة): الجداول ذات الاتجاهين للعمليات والتجارب المركبة</b>
+      <span class="m-badge">الحصة ٢ / ٢</span>
+    </div>
+    <span class="m-sub">تهيئة عملة وحجر نرد (١٢ نتيجة)، التعلم القبلي، المفردات، مختبر الجداول ذات الاتجاهين (تمارين ٥–٩: الدوّاران، الضرب، الأقلام والقطر x، حجر ورقة مقص)، التمايز، المسابقة، والواجب.</span>
+  </button>
+</div>
+
+<!-- Sticky Navigation (Dynamically binds to active session) -->
+<nav class="nav" id="nav">
+  <span class="nav-s-pill" id="navSessionPill">الحصة الأولى</span>
+  <a href="#s1-goals" data-base="#s-goals">الأهداف</a>
+  <a href="#s1-criteria" data-base="#s-criteria">معايير النجاح</a>
+  <a href="#s1-vocab" data-base="#s-vocab">المفردات والقوانين</a>
+  <a href="#s1-prior" data-base="#s-prior">التعلم القبلي</a>
+  <a href="#s1-warm" data-base="#s-warm">التهيئة</a>
+  <a href="#s1-flow" data-base="#s-flow">سير الحصة</a>
+  <a href="#s1-lab" data-base="#s-lab">المختبر التفاعلي</a>
+  <a href="#s1-diff" data-base="#s-diff">أنشطة التمايز</a>
+  <a href="#s1-formative" data-base="#s-formative">التقويم التكويني</a>
+  <a href="#s1-final" data-base="#s-final">التقويم الختامي</a>
+  <a href="#s1-comp" data-base="#s-comp">المسابقة</a>
+  <a href="#s1-hw" data-base="#s-hw">الواجب</a>
+  <a href="#s1-mind" data-base="#s-mind">الخريطة الذهنية</a>
+  <a href="#s1-game" data-base="#s-game">اللعبة</a>
+</nav>
+
+<!-- ===================================================================== -->
+<!-- ======================== SESSION 1 PANEL ============================ -->
+<!-- ===================================================================== -->
+<div class="session-pane" id="pane-1">
+
+  <!-- 1.1 Goals -->
+  <section class="sec" id="s1-goals">
+    <div class="sec-h"><span class="n">١</span><h2>الأهداف التعليمية — الحصة الأولى<small>يتوقّع في نهاية الحصة الأولى (٣٥ دقيقة) أن يكون الطالب قادرًا على أن:</small></h2></div>
+    <div class="card">
+      <ol class="olist">
+        <li>يوضّح مفهوم <b>النتائج المتنافية</b> ويبني جدول <b>فضاء الإمكانات</b> (٣٦ زوجاً مرتباً) عند رمي حجري نرد ذوي ستة أوجه معاً.</li>
+        <li>يميّز بين الزوج المرتب <span dir="ltr">(١ ، ٢)</span> والزوج المرتب <span dir="ltr">(٢ ، ١)</span> كمحاولتين مستقلتين مختلفتين في فضاء الإمكانات.</li>
+        <li>ينشئ <b>جدول إجمالي الظهور (المجموع)</b> لحجري النرد (مثال ٧-٣) ويحسب احتمالات المجموع (مثل ٨، أصغر من ٨، ٨ أو أكثر) في أبسط صورة.</li>
+        <li>يكتشف الخطأ الرياضي في عدّ النواتج دون اعتبار تكافؤ الفرص (مثل خطأ مها في تمرين ٢) ويحل تمارين الكتاب (١، ٢، ٣، ٤).</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 1.2 Success Criteria -->
+  <section class="sec" id="s1-criteria">
+    <div class="sec-h"><span class="n">٢</span><h2>معايير النجاح — الحصة الأولى<small>اضغط على كل معيار حين تتقنه (تقييم ذاتي للحصة الأولى)</small></h2></div>
+    <div class="card" id="s1CritList"></div>
+  </section>
+
+  <!-- 1.3 Vocab & Laws -->
+  <section class="sec" id="s1-vocab">
+    <div class="sec-h"><span class="n">٣</span><h2>المفردات والقوانين — الحصة الأولى</h2></div>
+    <div class="grid2" style="margin-bottom:12px">
+      <div class="formula-banner">
+        <span>عدد عناصر فضاء الإمكانات لحجري نرد = ٦ × ٦ = <b>٣٦</b> نتيجة متنافية</span>
+      </div>
+      <div class="formula-banner" style="border-color:var(--accent);color:var(--maroon)">
+        <span>احتمال الحدث = </span>
+        <span class="frac lg"><span>عدد النواتج المتنافية التي تحقق الحدث في الجدول</span><span>٣٦</span></span>
+        <span>(في أبسط صورة)</span>
+      </div>
+    </div>
+    <div class="vocab" id="s1VocabList"></div>
+  </section>
+
+  <!-- 1.4 Prior Learning -->
+  <section class="sec" id="s1-prior">
+    <div class="sec-h"><span class="n">٤</span><h2>التعلّم القبلي — الحصة الأولى<small>اضغط على البطاقة لمراجعة تبسيط الكسور مقامها ٣٦ والأعداد الأولية والفردية</small></h2></div>
+    <div class="flips" id="s1Flips"></div>
+  </section>
+
+  <!-- 1.5 Warmup (Maha's Misconception - Exercise 2) -->
+  <section class="sec" id="s1-warm">
+    <div class="sec-h"><span class="n">٥</span><h2>التهيئة والتمهيد — الحصة الأولى: اكتشف خطأ مها! (تمرين ٢)<small>ترمي مها حجري نرد ذوي ستة أوجه وتجمع ما حصلت عليه، وتقول: «يوجد أحد عشر إجمالي محتمل (من ٢ إلى ١٢)، إذن احتمال إجمالي ٣ هو <span class="frac"><span>١</span><span>١١</span></span>»</small></h2></div>
+    <div class="card" style="display:grid;gap:12px">
+      <div class="scaff-box">
+        <b>تأمّل قول مها:</b> الإجماليات الممكنة فعلاً هي (٢، ٣، ٤، ٥، ٦، ٧، ٨، ٩، ١٠، ١١، ١٢) وعددها ١١ قيمة، لكن هل لها جميعاً نفس فرصة الحدوث؟ ما الاحتمال الصحيح لإجمالي ٣؟
+      </div>
+      <div class="row" id="s1WarmBtns">
+        <button class="btn" data-ans="w1"><span class="frac"><span>١</span><span>١١</span></span></button>
+        <button class="btn" data-ans="w2"><span class="frac"><span>١</span><span>٣٦</span></span></button>
+        <button class="btn" data-ans="right"><span class="frac"><span>٢</span><span>٣٦</span></span> = <span class="frac"><span>١</span><span>١٨</span></span></button>
+        <button class="btn" data-ans="w3"><span class="frac"><span>٣</span><span>٣٦</span></span> = <span class="frac"><span>١</span><span>١٢</span></span></button>
+      </div>
+      <p class="fb" id="s1WarmFb"></p>
+    </div>
+  </section>
+
+  <!-- 1.6 Lesson Flow (35 mins) -->
+  <section class="sec" id="s1-flow">
+    <div class="sec-h"><span class="n">٦</span><h2>سير الحصة الأولى والأنشطة (٣٥ دقيقة)</h2></div>
+    <div class="flow" id="s1FlowList"></div>
+  </section>
+
+  <!-- 1.7 Interactive Lab (6x6 Pairs Table & Sum Table - Example 7-3) -->
+  <section class="sec" id="s1-lab">
+    <div class="sec-h"><span class="n">٧</span><h2>مختبر فضاء الإمكانات التفاعلي (حجرا النرد ومثال ٧-٣)<small>بدّل بين جدول الأزواج المرتبة (أحمر، أزرق) وجدول المجموع، واضغط على أي حدث لتظليل نتائجه الـ ٣٦ أو ظلّل بنفسك</small></h2></div>
+    <div class="split">
+      <div class="card" style="display:grid;gap:10px">
+        <div class="row" style="justify-content:space-between">
+          <div class="seg" id="s1TableMode">
+            <button data-m="pairs" class="on">جدول الأزواج المرتبة (أحمر، أزرق)</button>
+            <button data-m="sums">مثال (٧-٣): جدول المجموع (+)</button>
+          </div>
+          <span class="pill">العدد الكلي = ٣٦</span>
+        </div>
+        <div style="overflow-x:auto" id="s1MatrixWrap"></div>
+        <div class="stats">
+          <div class="stat"><b class="num" id="s1StFav">٥</b><small>الخلايا المظللة</small></div>
+          <div class="stat"><b class="num">٣٦</b><small>فضاء الإمكانات الكلي</small></div>
+          <div class="stat"><b class="num" id="s1StProb"><span class="frac"><span>٥</span><span>٣٦</span></span></b><small>الاحتمال في أبسط صورة</small></div>
+        </div>
+      </div>
+
+      <div class="card" style="display:grid;gap:11px;align-content:start">
+        <h3>اختر الحدث من الكتاب لتظليله في الجدول</h3>
+        <div class="row" id="s1EventBtns"></div>
+        <div class="row">
+          <button class="btn" id="s1ManualBtn">✍️ تظليل الطالب يدوياً</button>
+          <button class="btn" id="s1ClearBtn">🧹 محو التظليل</button>
+        </div>
+        <div class="row">
+          <button class="btn dark" id="s1RollBtn">🎲 ارمِ الحجرين (أحمر وأزرق) عشوائياً</button>
+          <span class="pill" id="s1RollRes">اضغط لرمي الحجرين</span>
+        </div>
+        <div class="verdict" id="s1LabExplain" style="font-size:14.5px"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1.8 Differentiation -->
+  <section class="sec" id="s1-diff">
+    <div class="sec-h"><span class="n">٨</span><h2>أنشطة التمايز وتفريد التعليم — الحصة الأولى<small>اختر مسارك من تمارين الكتاب (١، ٣، ٤)، وأدخل البسط والمقام في أبسط صورة للتحقق الفوري</small></h2></div>
+    <div class="card">
+      <div class="diff-tabs" id="s1DiffTabs" role="tablist">
+        <button class="diff-tab t1 on" data-level="1">
+          <b>🟢 المسار الأساسي (تمرين ١: ظهور العدد ٤)</b>
+          <span>رمي حجري نرد معاً وإيجاد احتمالات ظهور العدد ٤ في الحجرين</span>
+        </button>
+        <button class="diff-tab t2" data-level="2">
+          <b>🟠 المسار المتوسط (تمرين ٣: مجموع حجري النرد)</b>
+          <span>حساب احتمالات المجموع (٧، أصغر من ٧، عدد فردي، عدد أولي)</span>
+        </button>
+        <button class="diff-tab t3" data-level="3">
+          <b>🔴 المسار المتقدم (تمرين ٤: تساوي الأعداد والفرق بينهما)</b>
+          <span>تحليل القطر الرئيسي للأعداد المتساوية والفرق بين العددين يساوي ٢</span>
+        </button>
+      </div>
+      <div id="s1DiffContent" class="diff-panel"></div>
+    </div>
+  </section>
+
+  <!-- 1.9 Formative Assessment -->
+  <section class="sec" id="s1-formative">
+    <div class="sec-h"><span class="n">٩</span><h2>التقويم التكويني — الحصة الأولى<small>٤ أسئلة اختيار من متعدد بتغذية راجعة وتعليل فوري</small></h2></div>
+    <div class="quiz" id="s1FormQuiz"></div>
+    <p class="score" id="s1FormScore" style="margin-top:10px"></p>
+  </section>
+
+  <!-- 1.10 Final Assessment -->
+  <section class="sec" id="s1-final">
+    <div class="sec-h"><span class="n">١٠</span><h2>التقويم الختامي — الحصة الأولى<small>أجب عن الأسئلة الستة ثم اضغط «صحّح إجاباتي»</small></h2></div>
+    <div class="field" style="max-width:360px;margin-bottom:12px"><label for="s1FinName">اسم الطالب</label><input id="s1FinName" placeholder="اكتب اسمك الثلاثي..." autocomplete="off"></div>
+    <div class="quiz" id="s1FinQuiz"></div>
+    <div class="row" style="margin-top:12px"><button class="btn pri" id="s1FinSubmit">صحّح إجاباتي</button><button class="btn" id="s1FinReset">إعادة المحاولة</button></div>
+    <div id="s1FinResult" style="margin-top:12px"></div>
+  </section>
+
+  <!-- 1.11 Classroom Competition -->
+  <section class="sec" id="s1-comp">
+    <div class="sec-h"><span class="n">١١</span><h2>مسابقة المجموعات الصفية — الحصة الأولى<small>زمن كل سؤال ٣٠ ثانية · ١٠ نقاط للدقة + حتى ٥ نقاط للسرعة</small></h2></div>
+    <div class="comp" id="s1CompBox"></div>
+  </section>
+
+  <!-- 1.12 Homework -->
+  <section class="sec" id="s1-hw">
+    <div class="sec-h"><span class="n">١٢</span><h2>الواجب المنزلي — الحصة الأولى<small>مسائل من تمارين (٣) و(٤) مع تجهيز الرسالة لإرسالها إلى المعلم</small></h2></div>
+    <div class="card" style="display:grid;gap:12px">
+      <div class="mail"><span>المعلم: <b>أ/ عماد جابر</b></span><span>·</span><span>البريد الإلكتروني:</span><code>em5555592@gmail.com</code><button class="btn" id="s1CopyMail">نسخ البريد</button></div>
+      <div class="grid3">
+        <div class="field"><label for="s1HwName">اسم الطالب</label><input id="s1HwName" autocomplete="off"></div>
+        <div class="field"><label for="s1HwClass">الصف والشعبة</label><input id="s1HwClass" placeholder="مثال: ٨/١" autocomplete="off"></div>
+        <div class="field"><label for="s1HwGroup">المجموعة</label><input id="s1HwGroup" autocomplete="off"></div>
+      </div>
+      <div id="s1HwTasks" style="display:grid;gap:12px"></div>
+      <div class="row"><button class="btn pri" id="s1HwBuild">جهّز رسالة واجب الحصة الأولى</button></div>
+      <div id="s1HwOut" hidden style="display:grid;gap:10px">
+        <pre class="msg" id="s1HwMsg"></pre>
+        <div class="row"><a class="btn dark" id="s1HwMailto" href="#">فتح البريد وإرسال الواجب</a><button class="btn" id="s1HwCopy">نسخ نص الواجب</button><span class="fb" id="s1HwFb"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1.13 Mind Map -->
+  <section class="sec" id="s1-mind">
+    <div class="sec-h"><span class="n">١٣</span><h2>الخريطة الذهنية — الحصة الأولى</h2></div>
+    <div class="mm-wrap" id="s1MindMap"></div>
+  </section>
+
+  <!-- 1.14 Interactive Game -->
+  <section class="sec" id="s1-game">
+    <div class="sec-h"><span class="n">١٤</span><h2>لعبة الحصة الأولى: تحدّي فضاء الإمكانات (٣٦ نتيجة)<small>احسب الاحتمال في أبسط صورة بسرعة ودقة لتجميع النقاط</small></h2></div>
+    <div class="card" style="display:grid;gap:12px">
+      <div class="ghead">
+        <span class="score">النقاط: <b class="num" id="s1GPts">٠</b></span>
+        <span class="pill">السؤال: <b class="num" id="s1GQNo">١</b> / ٦</span>
+        <span class="pill">سلسلة الإجابات الصحيحة: <b class="num" id="s1GStreak">٠</b> 🔥</span>
+      </div>
+      <div class="grid2" style="align-items:center">
+        <div id="s1GVisual" style="display:grid;place-items:center;min-height:170px;background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center"></div>
+        <div class="game-card">
+          <h3 id="s1GPrompt" style="font-size:18px"></h3>
+          <p class="muted" id="s1GHint" style="font-size:14px"></p>
+          <div class="game-opts" id="s1GOpts"></div>
+          <div class="verdict" id="s1GMsg">اختر الإجابة الصحيحة في أبسط صورة.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- ===================================================================== -->
+<!-- ======================== SESSION 2 PANEL ============================ -->
+<!-- ===================================================================== -->
+<div class="session-pane" id="pane-2" hidden>
+
+  <!-- 2.1 Goals -->
+  <section class="sec" id="s2-goals">
+    <div class="sec-h"><span class="n">١</span><h2>الأهداف التعليمية — الحصة الثانية<small>يتوقّع في نهاية الحصة الثانية (٣٥ دقيقة) أن يكون الطالب قادرًا على أن:</small></h2></div>
+    <div class="card">
+      <ol class="olist">
+        <li>ينشئ <b>جدول النتائج المتنافية</b> لتجربة مركبة من أداتين مختلفتين مثل عملة وحجر نرد (٢ × ٦ = ١٢ نتيجة) كما في تمرين (٥).</li>
+        <li>يُكمل <b>الجداول ذات الاتجاهين للجمع والضرب</b> (دوّاران غير منتظمين في تمرين ٦، وضرب عددي حجري النرد في تمرين ٧).</li>
+        <li>يفسّر معنى الرمز <b>(x)</b> في جدول السحب دون إرجاع (تمرين ٨: الأقلام الأربعة الزرقاء والقلم الأحمر) ويستبعد الاختيارات المستحيلة من المقام (٢٠ نتيجة ممكنة بدلاً من ٢٥).</li>
+        <li>يمثّل فضاء الإمكانات للعبة <b>«حجر، ورقة، مقص»</b> (٣ × ٣ = ٩ نتائج) ويحسب احتمال التعادل واحتمال فوز أحد اللاعبين (تمرين ٩).</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 2.2 Success Criteria -->
+  <section class="sec" id="s2-criteria">
+    <div class="sec-h"><span class="n">٢</span><h2>معايير النجاح — الحصة الثانية<small>اضغط على كل معيار حين تتقنه (تقييم ذاتي للحصة الثانية)</small></h2></div>
+    <div class="card" id="s2CritList"></div>
+  </section>
+
+  <!-- 2.3 Vocab & Laws -->
+  <section class="sec" id="s2-vocab">
+    <div class="sec-h"><span class="n">٣</span><h2>المفردات والقوانين — الحصة الثانية</h2></div>
+    <div class="grid2" style="margin-bottom:12px">
+      <div class="formula-banner">
+        <span>السحب مع الإرجاع: عدد النواتج = <b>ن × ن</b> · السحب دون إرجاع: عدد النواتج = <b>ن × (ن − ١)</b></span>
+      </div>
+      <div class="formula-banner" style="border-color:var(--accent);color:var(--maroon)">
+        <span>الرمز <b>(x)</b> في الجدول يشير إلى <b>الاختيارات المستحيلة</b> (لا تُحسب ضمن المقام)</span>
+      </div>
+    </div>
+    <div class="vocab" id="s2VocabList"></div>
+  </section>
+
+  <!-- 2.4 Prior Learning -->
+  <section class="sec" id="s2-prior">
+    <div class="sec-h"><span class="n">٤</span><h2>التعلّم القبلي — الحصة الثانية<small>اضغط على البطاقة لمراجعة مبدأ العدّ الأساسي وعدد النواتج الممكنة</small></h2></div>
+    <div class="flips" id="s2Flips"></div>
+  </section>
+
+  <!-- 2.5 Warmup (Exercise 5: Coin and Die - 12 Outcomes) -->
+  <section class="sec" id="s2-warm">
+    <div class="sec-h"><span class="n">٥</span><h2>التهيئة والتمهيد — الحصة الثانية: رمي عملة وحجر نرد معاً (تمرين ٥)<small>يرمي هلال عملة معدنية (صورة أو كتابة) وحجر نرد ذا ستة أوجه معاً</small></h2></div>
+    <div class="card" style="display:grid;gap:12px">
+      <div style="overflow-x:auto">
+        <table class="tw-table">
+          <thead>
+            <tr><th class="sub-h">العملة \ حجر النرد</th><th>١</th><th>٢</th><th>٣</th><th>٤</th><th>٥</th><th>٦</th></tr>
+          </thead>
+          <tbody>
+            <tr><th>صورة (ص)</th><td>(ص ، ١)</td><td>(ص ، ٢)</td><td>(ص ، ٣)</td><td>(ص ، ٤)</td><td>(ص ، ٥)</td><td>(ص ، ٦)</td></tr>
+            <tr><th>كتابة (ك)</th><td>(ك ، ١)</td><td>(ك ، ٢)</td><td>(ك ، ٣)</td><td>(ك ، ٤)</td><td>(ك ، ٥)</td><td>(ك ، ٦)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="scaff-box">
+        <b>سؤال التهيئة الاستكشافي (تمرين ٥ ب-٢):</b> يوضح الجدول أعلاه وجود <b>١٢ نتيجة متنافية</b>. ما احتمال الحصول على <b>صورة وعدد زوجي</b> في أبسط صورة؟
+      </div>
+      <div class="row" id="s2WarmBtns">
+        <button class="btn" data-ans="w1"><span class="frac"><span>١</span><span>٢</span></span></button>
+        <button class="btn" data-ans="right"><span class="frac"><span>٣</span><span>١٢</span></span> = <span class="frac"><span>١</span><span>٤</span></span></button>
+        <button class="btn" data-ans="w2"><span class="frac"><span>٦</span><span>١٢</span></span></button>
+        <button class="btn" data-ans="w3"><span class="frac"><span>١</span><span>٦</span></span></button>
+      </div>
+      <p class="fb" id="s2WarmFb"></p>
+    </div>
+  </section>
+
+  <!-- 2.6 Lesson Flow (35 mins) -->
+  <section class="sec" id="s2-flow">
+    <div class="sec-h"><span class="n">٦</span><h2>سير الحصة الثانية والأنشطة (٣٥ دقيقة)</h2></div>
+    <div class="flow" id="s2FlowList"></div>
+  </section>
+
+  <!-- 2.7 Interactive Lab (Exercises 5, 6, 7, 8, 9) -->
+  <section class="sec" id="s2-lab">
+    <div class="sec-h"><span class="n">٧</span><h2>مختبر الجداول ذات الاتجاهين التفاعلي — الحصة الثانية<small>تفاعل مع جداول تمارين الكتاب (٥، ٦، ٧، ٨، ٩)، وظلّل النواتج تلقائياً أو يدوياً ثم أدخل الكسور في أبسط صورة</small></h2></div>
+
+    <div class="grid2" style="margin-bottom:14px">
+      <!-- Exercise 6: Spinners -->
+      <div class="card" style="display:grid;gap:10px">
+        <h3>أولاً: تمرين (٦) — الدوّاران ذوا الثلاثة أقسام (٩ نتائج)</h3>
+        <div class="spin-box">
+          <svg class="spin-svg" viewBox="0 0 120 120" aria-label="الدوّار الأول بأقسام ١، ١، ٣">
+            <circle cx="60" cy="60" r="54" fill="var(--soft)" stroke="var(--ink)" stroke-width="2.5"/>
+            <line x1="60" y1="60" x2="60" y2="6" stroke="var(--ink)" stroke-width="2"/>
+            <line x1="60" y1="60" x2="107" y2="87" stroke="var(--ink)" stroke-width="2"/>
+            <line x1="60" y1="60" x2="13" y2="87" stroke="var(--ink)" stroke-width="2"/>
+            <text x="82" y="45" font-size="18" font-weight="800" fill="var(--ink)" text-anchor="middle">١</text>
+            <text x="38" y="45" font-size="18" font-weight="800" fill="var(--ink)" text-anchor="middle">١</text>
+            <text x="60" y="96" font-size="18" font-weight="800" fill="var(--ink)" text-anchor="middle">٣</text>
+            <line x1="60" y1="60" x2="40" y2="28" stroke="var(--maroon)" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="60" cy="60" r="4" fill="var(--maroon)"/>
+          </svg>
+          <svg class="spin-svg" viewBox="0 0 120 120" aria-label="الدوّار الثاني بأقسام ٢، ٣، ٥">
+            <circle cx="60" cy="60" r="54" fill="var(--soft)" stroke="var(--ink)" stroke-width="2.5"/>
+            <line x1="60" y1="60" x2="60" y2="6" stroke="var(--ink)" stroke-width="2"/>
+            <line x1="60" y1="60" x2="107" y2="87" stroke="var(--ink)" stroke-width="2"/>
+            <line x1="60" y1="60" x2="13" y2="87" stroke="var(--ink)" stroke-width="2"/>
+            <text x="82" y="45" font-size="18" font-weight="800" fill="var(--ink)" text-anchor="middle">٢</text>
+            <text x="38" y="45" font-size="18" font-weight="800" fill="var(--ink)" text-anchor="middle">٣</text>
+            <text x="60" y="96" font-size="18" font-weight="800" fill="var(--ink)" text-anchor="middle">٥</text>
+            <line x1="60" y1="60" x2="25" y2="65" stroke="var(--teal)" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="60" cy="60" r="4" fill="var(--teal)"/>
+          </svg>
+        </div>
+        <div class="row" id="ex6Filters">
+          <button class="btn on" data-f="s3">(١) إجمالي ٣</button>
+          <button class="btn" data-f="s6">(٢) إجمالي ٦</button>
+          <button class="btn" data-f="ge5">(٣) ٥ أو أكثر</button>
+          <button class="btn" data-f="even">(٤) عدد زوجي</button>
+          <button class="btn" data-act="manual">✍️ تظليل الطالب يدوياً</button>
+          <button class="btn" data-act="clear">🧹 محو التظليل</button>
+        </div>
+        <div style="overflow-x:auto" id="ex6TableWrap"></div>
+        <div class="scaff-box" id="ex6InfoBox"></div>
+        <div class="grid2">
+          <div class="diff-task">
+            <span><b>(١)</b> إجمالي ٣:</span>
+            <div class="row"><div class="frac-inp" id="f6_1"><input type="number" id="n6_1" placeholder="بسط"><div class="bar"></div><input type="number" id="d6_1" placeholder="مقام"></div><span class="fb" id="s6_1"></span></div>
+          </div>
+          <div class="diff-task">
+            <span><b>(٢)</b> إجمالي ٦ (أبسط صورة):</span>
+            <div class="row"><div class="frac-inp" id="f6_2"><input type="number" id="n6_2" placeholder="بسط"><div class="bar"></div><input type="number" id="d6_2" placeholder="مقام"></div><span class="fb" id="s6_2"></span></div>
+          </div>
+          <div class="diff-task">
+            <span><b>(٣)</b> ٥ أو أكثر:</span>
+            <div class="row"><div class="frac-inp" id="f6_3"><input type="number" id="n6_3" placeholder="بسط"><div class="bar"></div><input type="number" id="d6_3" placeholder="مقام"></div><span class="fb" id="s6_3"></span></div>
+          </div>
+          <div class="diff-task">
+            <span><b>(٤)</b> عدد زوجي (أبسط صورة):</span>
+            <div class="row"><div class="frac-inp" id="f6_4"><input type="number" id="n6_4" placeholder="بسط"><div class="bar"></div><input type="number" id="d6_4" placeholder="مقام"></div><span class="fb" id="s6_4"></span></div>
+          </div>
+        </div>
+        <button class="btn pri" id="checkEx6">تحقّق من تمرين (٦)</button>
+      </div>
+
+      <!-- Exercise 7: Multiplication of Two Dice -->
+      <div class="card" style="display:grid;gap:10px">
+        <h3>ثانياً: تمرين (٧) — جدول ناتج ضرب حجري النرد (٣٦ نتيجة)</h3>
+        <p class="muted" style="font-size:14px">يوجد <b>١٨</b> ناتج ضرب مختلف متاحاً، و<b>٣٦</b> خانة متساوية الاحتمال. اختر حدثاً أو ظلّل بنفسك:</p>
+        <div class="row" id="mulFilters">
+          <button class="btn on" data-f="12">(١) ١٢</button>
+          <button class="btn" data-f="not12">(٢) ليس ١٢</button>
+          <button class="btn" data-f="lt12">(٣) أصغر من ١٢</button>
+          <button class="btn" data-f="gt17">(٤) أكبر من ١٧</button>
+          <button class="btn" data-f="even">(٥) عدد زوجي</button>
+          <button class="btn" data-act="manual">✍️ تظليل الطالب يدوياً</button>
+          <button class="btn" data-act="clear">🧹 محو التظليل</button>
+        </div>
+        <div style="overflow-x:auto" id="mulTableWrap"></div>
+        <div class="scaff-box" id="mulInfoBox"></div>
+      </div>
+    </div>
+
+    <div class="grid2">
+      <!-- Exercise 8: Hassan's Pens -->
+      <div class="card" style="display:grid;gap:10px">
+        <h3>ثالثاً: تمرين (٨) — أقلام حسن (٤ زرقاء و ١ أحمر) دون إرجاع</h3>
+        <p class="muted" style="font-size:14px">يشير الرمز <b>(x)</b> باتجاه الخط القُطري إلى الاختيارات المستحيلة لأن القلم الأول لا يمكن أن يُسحب مرة ثانية، فيتبقى <b>٢٠</b> اختياراً ممكناً:</p>
+        <div class="row" id="ex8Filters">
+          <button class="btn on" data-f="bb">(١) كلا القلمين أزرق</button>
+          <button class="btn" data-f="r1">(٢) القلم الأول أحمر</button>
+          <button class="btn" data-f="anyr">(٣) أحد الأقلام أحمر</button>
+          <button class="btn" data-act="manual">✍️ تظليل الطالب يدوياً</button>
+          <button class="btn" data-act="clear">🧹 محو التظليل</button>
+        </div>
+        <div style="overflow-x:auto" id="ex8TableWrap"></div>
+        <div class="scaff-box" id="ex8InfoBox"></div>
+        <div class="grid3">
+          <div class="diff-task">
+            <span><b>(١)</b> كلا القلمين أزرق:</span>
+            <div class="row"><div class="frac-inp" id="f8_1"><input type="number" id="n8_1" placeholder="بسط"><div class="bar"></div><input type="number" id="d8_1" placeholder="مقام"></div><span class="fb" id="s8_1"></span></div>
+          </div>
+          <div class="diff-task">
+            <span><b>(٢)</b> القلم الأول أحمر:</span>
+            <div class="row"><div class="frac-inp" id="f8_2"><input type="number" id="n8_2" placeholder="بسط"><div class="bar"></div><input type="number" id="d8_2" placeholder="مقام"></div><span class="fb" id="s8_2"></span></div>
+          </div>
+          <div class="diff-task">
+            <span><b>(٣)</b> أحد الأقلام أحمر:</span>
+            <div class="row"><div class="frac-inp" id="f8_3"><input type="number" id="n8_3" placeholder="بسط"><div class="bar"></div><input type="number" id="d8_3" placeholder="مقام"></div><span class="fb" id="s8_3"></span></div>
+          </div>
+        </div>
+        <button class="btn pri" id="checkEx8">تحقّق من تمرين (٨)</button>
+      </div>
+
+      <!-- Exercise 9: Rock Paper Scissors -->
+      <div class="card" style="display:grid;gap:10px">
+        <h3>رابعاً: تمرين (٩) — لعبة «حجر، ورقة، مقص» بين مهنّد وخديجة (٩ نتائج)</h3>
+        <p class="muted" style="font-size:14px">توجد <b>٩</b> نتائج متساوية الاحتمال. الحجر يهزم المقص، المقص يهزم الورقة، والورقة تهزم الحجر:</p>
+        <div class="row" id="ex9Filters">
+          <button class="btn on" data-f="diff">(ب) لن يختارا نفس الشيء</button>
+          <button class="btn" data-f="mwin">(ج) يهزم مهنّد خديجة</button>
+          <button class="btn" data-f="tie">التعادل (نفس الشيء)</button>
+          <button class="btn" data-act="manual">✍️ تظليل الطالب يدوياً</button>
+          <button class="btn" data-act="clear">🧹 محو التظليل</button>
+        </div>
+        <div style="overflow-x:auto" id="ex9TableWrap"></div>
+        <div class="scaff-box" id="ex9InfoBox"></div>
+        <div class="grid2">
+          <div class="diff-task">
+            <span><b>(ب)</b> احتمال ألا يختارا نفس الشيء:</span>
+            <div class="row"><div class="frac-inp" id="f9_b"><input type="number" id="n9_b" placeholder="بسط"><div class="bar"></div><input type="number" id="d9_b" placeholder="مقام"></div><span class="fb" id="s9_b"></span></div>
+          </div>
+          <div class="diff-task">
+            <span><b>(ج)</b> احتمال أن يهزم مهنّد خديجة:</span>
+            <div class="row"><div class="frac-inp" id="f9_c"><input type="number" id="n9_c" placeholder="بسط"><div class="bar"></div><input type="number" id="d9_c" placeholder="مقام"></div><span class="fb" id="s9_c"></span></div>
+          </div>
+        </div>
+        <button class="btn pri" id="checkEx9">تحقّق من تمرين (٩)</button>
+      </div>
+    </div>
+
+    <!-- Exercise 5 Interactive Table -->
+    <div class="card" style="display:grid;gap:10px;margin-top:14px">
+      <h3>خامساً: تمرين (٥) — جدول رمي عملة وحجر نرد معاً (١٢ نتيجة متنافية)</h3>
+      <p class="muted" style="font-size:14px">ظلّل النواتج في جدول العملة وحجر النرد تلقائياً أو يدوياً لحساب الاحتمال في أبسط صورة:</p>
+      <div class="row" id="ex5Filters">
+        <button class="btn on" data-f="t1">(١) كتابة والعدد ١</button>
+        <button class="btn" data-f="heven">(٢) صورة وعدد زوجي</button>
+        <button class="btn" data-f="t56">(٣) كتابة و ٥ أو ٦</button>
+        <button class="btn" data-act="manual">✍️ تظليل الطالب يدوياً</button>
+        <button class="btn" data-act="clear">🧹 محو التظليل</button>
+      </div>
+      <div style="overflow-x:auto" id="ex5TableWrap"></div>
+      <div class="scaff-box" id="ex5InfoBox"></div>
+    </div>
+  </section>
+
+  <!-- 2.8 Differentiation -->
+  <section class="sec" id="s2-diff">
+    <div class="sec-h"><span class="n">٨</span><h2>أنشطة التمايز وتفريد التعليم — الحصة الثانية<small>اختر مسارك من تمارين الكتاب (٥، ٧، ٨، ٩) وأدخل البسط والمقام في أبسط صورة</small></h2></div>
+    <div class="card">
+      <div class="diff-tabs" id="s2DiffTabs" role="tablist">
+        <button class="diff-tab t1 on" data-level="1">
+          <b>🟢 المسار الأساسي (تمرين ٥: عملة وحجر نرد)</b>
+          <span>فضاء الإمكانات ذو ١٢ نتيجة متنافية (صورة/كتابة مع الأعداد ١ إلى ٦)</span>
+        </button>
+        <button class="diff-tab t2" data-level="2">
+          <b>🟠 المسار المتوسط (تمرين ٧: ضرب عددي حجري النرد)</b>
+          <span>حساب احتمالات ناتج الضرب من جدول الـ ٣٦ نتيجة</span>
+        </button>
+        <button class="diff-tab t3" data-level="3">
+          <b>🔴 المسار المتقدم (تمرين ٨ و ٩: السحب دون إرجاع والألعاب)</b>
+          <span>تحليل السحب دون إرجاع (٢٠ نتيجة) ولعبة حجر ورقة مقص</span>
+        </button>
+      </div>
+      <div id="s2DiffContent" class="diff-panel"></div>
+    </div>
+  </section>
+
+  <!-- 2.9 Formative Assessment -->
+  <section class="sec" id="s2-formative">
+    <div class="sec-h"><span class="n">٩</span><h2>التقويم التكويني — الحصة الثانية<small>٤ أسئلة اختيار من متعدد بتغذية راجعة وتعليل فوري</small></h2></div>
+    <div class="quiz" id="s2FormQuiz"></div>
+    <p class="score" id="s2FormScore" style="margin-top:10px"></p>
+  </section>
+
+  <!-- 2.10 Final Assessment -->
+  <section class="sec" id="s2-final">
+    <div class="sec-h"><span class="n">١٠</span><h2>التقويم الختامي — الحصة الثانية<small>أجب عن الأسئلة الستة الشاملة للتمارين (٥–٩) ثم اضغط «صحّح إجاباتي»</small></h2></div>
+    <div class="field" style="max-width:360px;margin-bottom:12px"><label for="s2FinName">اسم الطالب</label><input id="s2FinName" placeholder="اكتب اسمك الثلاثي..." autocomplete="off"></div>
+    <div class="quiz" id="s2FinQuiz"></div>
+    <div class="row" style="margin-top:12px"><button class="btn pri" id="s2FinSubmit">صحّح إجاباتي</button><button class="btn" id="s2FinReset">إعادة المحاولة</button></div>
+    <div id="s2FinResult" style="margin-top:12px"></div>
+  </section>
+
+  <!-- 2.11 Classroom Competition -->
+  <section class="sec" id="s2-comp">
+    <div class="sec-h"><span class="n">١١</span><h2>مسابقة المجموعات الصفية — الحصة الثانية<small>زمن كل سؤال ٣٠ ثانية · ١٠ نقاط للدقة + حتى ٥ نقاط للسرعة</small></h2></div>
+    <div class="comp" id="s2CompBox"></div>
+  </section>
+
+  <!-- 2.12 Homework -->
+  <section class="sec" id="s2-hw">
+    <div class="sec-h"><span class="n">١٢</span><h2>الواجب المنزلي — الحصة الثانية<small>مسائل من تمارين (٧، ٨، ٩) مع تجهيز الرسالة لإرسالها إلى المعلم</small></h2></div>
+    <div class="card" style="display:grid;gap:12px">
+      <div class="mail"><span>المعلم: <b>أ/ عماد جابر</b></span><span>·</span><span>البريد الإلكتروني:</span><code>em5555592@gmail.com</code><button class="btn" id="s2CopyMail">نسخ البريد</button></div>
+      <div class="grid3">
+        <div class="field"><label for="s2HwName">اسم الطالب</label><input id="s2HwName" autocomplete="off"></div>
+        <div class="field"><label for="s2HwClass">الصف والشعبة</label><input id="s2HwClass" placeholder="مثال: ٨/١" autocomplete="off"></div>
+        <div class="field"><label for="s2HwGroup">المجموعة</label><input id="s2HwGroup" autocomplete="off"></div>
+      </div>
+      <div id="s2HwTasks" style="display:grid;gap:12px"></div>
+      <div class="row"><button class="btn pri" id="s2HwBuild">جهّز رسالة واجب الحصة الثانية</button></div>
+      <div id="s2HwOut" hidden style="display:grid;gap:10px">
+        <pre class="msg" id="s2HwMsg"></pre>
+        <div class="row"><a class="btn dark" id="s2HwMailto" href="#">فتح البريد وإرسال الواجب</a><button class="btn" id="s2HwCopy">نسخ نص الواجب</button><span class="fb" id="s2HwFb"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2.13 Mind Map -->
+  <section class="sec" id="s2-mind">
+    <div class="sec-h"><span class="n">١٣</span><h2>الخريطة الذهنية — الحصة الثانية</h2></div>
+    <div class="mm-wrap" id="s2MindMap"></div>
+  </section>
+
+  <!-- 2.14 Interactive Game -->
+  <section class="sec" id="s2-game">
+    <div class="sec-h"><span class="n">١٤</span><h2>لعبة الحصة الثانية: تحدّي الجداول ذات الاتجاهين<small>احسب الاحتمال في أبسط صورة بسرعة ودقة لتجميع النقاط</small></h2></div>
+    <div class="card" style="display:grid;gap:12px">
+      <div class="ghead">
+        <span class="score">النقاط: <b class="num" id="s2GPts">٠</b></span>
+        <span class="pill">السؤال: <b class="num" id="s2GQNo">١</b> / ٦</span>
+        <span class="pill">سلسلة الإجابات الصحيحة: <b class="num" id="s2GStreak">٠</b> 🔥</span>
+      </div>
+      <div class="grid2" style="align-items:center">
+        <div id="s2GVisual" style="display:grid;place-items:center;min-height:170px;background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:14px;text-align:center"></div>
+        <div class="game-card">
+          <h3 id="s2GPrompt" style="font-size:18px"></h3>
+          <p class="muted" id="s2GHint" style="font-size:14px"></p>
+          <div class="game-opts" id="s2GOpts"></div>
+          <div class="verdict" id="s2GMsg">اختر الإجابة الصحيحة في أبسط صورة.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer class="foot">
+  سلطنة عُمان · وزارة التعليم · مدرسة محمد بن القاسم الثقفي (٥-١٠) · محافظة ظفار<br>
+  إعداد وتصميم: <b>أ/ عماد جابر</b>
+</footer>
+
+</div>
+
+<!-- Winner Overlay & Confetti -->
+<div class="overlay" id="winOverlay" hidden>
+  <div style="display:grid;gap:14px;justify-items:center">
+    <p>المجموعة الفائزة</p>
+    <h2 id="winName">—</h2>
+    <p id="winPts"></p>
+    <button class="btn pri" id="winClose">متابعة</button>
+  </div>
+</div>
+<canvas id="confetti" hidden></canvas>
+
+<script>
+(()=>{
+const AR='٠١٢٣٤٥٦٧٨٩';
+const ar=n=>String(n).replace(/\d/g,d=>AR[d]).replace(/\./g,'٫');
+const frac=(n,d)=>`<span class="frac"><span>${ar(n)}</span><span>${ar(d)}</span></span>`;
+
+const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
+const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const LET=['أ','ب','ج','د'];
+const MAIL='em5555592@gmail.com';
+const QT=30, DEFAULT_G=['الصقور','النجوم','المبدعون','الرواد'];
+
+const store={
+  get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},
+  set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+};
+async function copyText(t,fbEl){
+  try{await navigator.clipboard.writeText(t);if(fbEl){fbEl.textContent='تم النسخ بنجاح';fbEl.className='fb ok'}return true}
+  catch(e){if(fbEl){fbEl.textContent='تعذّر النسخ تلقائيًا، حدّد النص وانسخه يدويًا';fbEl.className='fb no'}return false}
+}
+
+/* ---------- Theme Toggle ---------- */
+{
+  const modes=['auto','light','dark'], labels={auto:'تلقائي',light:'نهاري',dark:'ليلي'};
+  let idx=0;
+  $('#themeToggle').onclick=()=>{
+    idx=(idx+1)%modes.length;
+    const m=modes[idx];
+    if(m==='auto')document.documentElement.removeAttribute('data-theme');
+    else document.documentElement.dataset.theme=m;
+    $('#themeToggle').textContent='المظهر: '+labels[m];
+  };
+}
+
+/* ---------- Hero Interactive Canvas (Red & Blue Dice + 36 Sample Space) ---------- */
+{
+  const cv=$('#heroCanvas'), ctx=cv.getContext('2d');
+  let rVal=5, bVal=4, timer=0;
+  function css(n){return getComputedStyle(document.documentElement).getPropertyValue(n).trim()}
+  function drawDie(cx,cy,size,val,bg){
+    ctx.save();
+    ctx.translate(cx,cy);
+    ctx.beginPath();
+    ctx.roundRect(-size/2,-size/2,size,size,14);
+    ctx.fillStyle=bg;
+    ctx.fill();
+    ctx.lineWidth=2.5;
+    ctx.strokeStyle='#FFFFFF';
+    ctx.stroke();
+
+    ctx.fillStyle='#FFFFFF';
+    const d=size*0.26, pr=size*0.09;
+    const pips={
+      1:[[0,0]],
+      2:[[-d,-d],[d,d]],
+      3:[[-d,-d],[0,0],[d,d]],
+      4:[[-d,-d],[d,-d],[-d,d],[d,d]],
+      5:[[-d,-d],[d,-d],[0,0],[-d,d],[d,d]],
+      6:[[-d,-d],[d,-d],[-d,0],[d,0],[-d,d],[d,d]]
+    };
+    pips[val].forEach(([px,py])=>{
+      ctx.beginPath();
+      ctx.arc(px,py,pr,0,Math.PI*2);
+      ctx.fill();
+    });
+    ctx.restore();
+  }
+  function drawHero(){
+    const dpr=devicePixelRatio||1, w=cv.clientWidth, h=cv.clientHeight;
+    if(!w||!h)return;
+    cv.width=w*dpr; cv.height=h*dpr; ctx.setTransform(dpr,0,0,dpr,0,0);
+    ctx.clearRect(0,0,w,h);
+
+    const sz=68, cy=h*0.34;
+    drawDie(w/2 + 52, cy, sz, rVal, '#C1435A');
+    drawDie(w/2 - 52, cy, sz, bVal, '#3556A8');
+
+    const gSz=14, gap=4, total=6*(gSz+gap)-gap;
+    const gx0=(w-total)/2, gy0=cy+52;
+    for(let r=1;r<=6;r++){
+      for(let b=1;b<=6;b++){
+        const x=gx0+(6-b)*(gSz+gap), y=gy0+(r-1)*(gSz+gap);
+        const isCur=(r===rVal && b===bVal);
+        ctx.fillStyle=isCur?css('--accent'):css('--line');
+        ctx.beginPath();
+        ctx.roundRect(x,y,gSz,gSz,3);
+        ctx.fill();
+      }
+    }
+  }
+  const loop=()=>{
+    if(!RM){
+      timer++;
+      if(timer%90===0){
+        rVal=1+Math.floor(Math.random()*6);
+        bVal=1+Math.floor(Math.random()*6);
+        drawHero();
+      }
+    }
+    requestAnimationFrame(loop);
+  };
+  drawHero(); requestAnimationFrame(loop);
+  window.addEventListener('resize',drawHero);
+}
+
+/* ---------- Master Session Switcher & Sticky Nav Sync ---------- */
+let activeSession='1';
+{
+  const navMap={
+    '#s-goals':'goals',
+    '#s-criteria':'criteria',
+    '#s-vocab':'vocab',
+    '#s-prior':'prior',
+    '#s-warm':'warm',
+    '#s-flow':'flow',
+    '#s-lab':'lab',
+    '#s-diff':'diff',
+    '#s-formative':'formative',
+    '#s-final':'final',
+    '#s-comp':'comp',
+    '#s-hw':'hw',
+    '#s-mind':'mind',
+    '#s-game':'game'
+  };
+
+  function switchSession(sNo){
+    activeSession=sNo;
+    $$('.m-tab').forEach(t=>{
+      const on=t.dataset.session===sNo;
+      t.classList.toggle('on',on);
+      t.setAttribute('aria-selected',on);
+    });
+    $('#pane-1').hidden=(sNo!=='1');
+    $('#pane-2').hidden=(sNo!=='2');
+    $('#navSessionPill').textContent=(sNo==='1'?'الحصة الأولى':'الحصة الثانية');
+    $('#navSessionPill').style.background=(sNo==='1'?'var(--teal)':'var(--accent)');
+    $('#navSessionPill').style.color=(sNo==='1'?'#fff':'var(--accent-ink)');
+
+    $$('#nav a').forEach(a=>{
+      const base=a.dataset.base;
+      const key=navMap[base];
+      if(key) a.setAttribute('href',`#s${sNo}-${key}`);
+    });
+    window.dispatchEvent(new Event('resize'));
+  }
+
+  $('#masterTabs').addEventListener('click',e=>{
+    const b=e.target.closest('.m-tab');if(!b)return;
+    switchSession(b.dataset.session);
+  });
+
+  switchSession('1');
+}
+
+/* ---------- Helper Functions for Reusable Modules ---------- */
+function initCriteria(elId, storeKey, list){
+  const el=$('#'+elId);
+  const saved=store.get(storeKey,[]);
+  el.innerHTML=list.map((c,i)=>`<button class="crit" aria-pressed="${saved.includes(i)}" data-i="${i}"><span class="box">✓</span><span>${c}</span></button>`).join('');
+  el.addEventListener('click',e=>{
+    const b=e.target.closest('.crit');if(!b)return;
+    const on=b.getAttribute('aria-pressed')!=='true';
+    b.setAttribute('aria-pressed',on);
+    store.set(storeKey,$$('.crit[aria-pressed="true"]',el).map(x=>+x.dataset.i));
+  });
+}
+
+function initFlips(elId, list){
+  const el=$('#'+elId);
+  el.innerHTML=list.map(f=>`<button class="flip"><span class="q">${f[0]}</span><span class="a" hidden>${f[1]}</span><span class="hint">اضغط لإظهار الإجابة</span></button>`).join('');
+  el.addEventListener('click',e=>{
+    const b=e.target.closest('.flip');if(!b)return;
+    const a=$('.a',b),hn=$('.hint',b);a.hidden=!a.hidden;hn.hidden=!a.hidden;
+  });
+}
+
+function initFlow(elId, list){
+  $('#'+elId).innerHTML=list.map(f=>`<div class="step"><div class="t"><span class="num">${f[0]}</span>${f[1]}</div><div><h3>${f[2]}</h3><div class="roles"><div><b>دور المعلم</b>${f[3]}</div><div><b>دور الطالب</b>${f[4]}</div></div></div></div>`).join('');
+}
+
+function checkFrac(nId,dId,boxId,stId,targetN,targetD){
+  const n=parseInt($('#'+nId).value,10), d=parseInt($('#'+dId).value,10);
+  const box=$('#'+boxId), st=$('#'+stId);
+  if((n===targetN && d===targetD) || (targetN===0 && n===0 && !isNaN(d) && d>0)){
+    box.className='frac-inp ok';
+    st.className='fb ok';
+    st.innerHTML='✓ صحيح '+frac(targetN,targetD);
+    return true;
+  }else if(!isNaN(n) && !isNaN(d) && d!==0 && Math.abs(n/d - targetN/targetD)<1e-6){
+    box.className='frac-inp no';
+    st.className='fb no';
+    st.innerHTML='بسّط الكسر لأبسط صورة';
+    return false;
+  }else{
+    box.className='frac-inp no';
+    st.className='fb no';
+    st.innerHTML='✗ الصواب: '+frac(targetN,targetD);
+    return false;
+  }
+}
+
+function initDiff(tabsId, contentId, prefix, data){
+  const tabs=$('#'+tabsId), content=$('#'+contentId);
+  function render(lvl){
+    const list=data[lvl];
+    content.innerHTML=list.map((item,i)=>`
+      <div class="diff-task">
+        <span class="tag ${item.cls}">${item.tag}</span>
+        <p style="font-weight:700">${item.q}</p>
+        <div class="scaff-box" id="${prefix}_scaff_${lvl}_${i}" hidden>💡 <b>إرشاد للحل:</b> ${item.scaff}</div>
+        <div class="row">
+          <div class="frac-inp" id="${prefix}_box_${lvl}_${i}">
+            <input type="number" id="${prefix}_n_${lvl}_${i}" placeholder="بسط">
+            <div class="bar"></div>
+            <input type="number" id="${prefix}_d_${lvl}_${i}" placeholder="مقام">
+          </div>
+          <button class="btn pri" data-check="${lvl}_${i}">تحقّق</button>
+          <button class="btn" data-hint="${lvl}_${i}">إظهار التلميح</button>
+        </div>
+        <p class="fb" id="${prefix}_fb_${lvl}_${i}"></p>
+      </div>
+    `).join('');
+  }
+  tabs.addEventListener('click',e=>{
+    const b=e.target.closest('.diff-tab');if(!b)return;
+    $$('.diff-tab',tabs).forEach(x=>x.classList.toggle('on',x===b));
+    render(b.dataset.level);
+  });
+  content.addEventListener('click',e=>{
+    const hBtn=e.target.closest('[data-hint]');
+    if(hBtn){const el=$(`#${prefix}_scaff_${hBtn.dataset.hint}`);el.hidden=!el.hidden;return;}
+    const cBtn=e.target.closest('[data-check]');
+    if(cBtn){
+      const [lvl,i]=cBtn.dataset.check.split('_');
+      const item=data[lvl][+i];
+      const ok=checkFrac(`${prefix}_n_${lvl}_${i}`,`${prefix}_d_${lvl}_${i}`,`${prefix}_box_${lvl}_${i}`,`${prefix}_fb_${lvl}_${i}`,item.n,item.d);
+      if(ok) $(`#${prefix}_fb_${lvl}_${i}`).innerHTML='✓ إجابة ممتازة! '+item.sol;
+    }
+  });
+  render('1');
+}
+
+function renderQuiz(box,QS,instant,onScore){
+  box.innerHTML=QS.map((q,i)=>`<div class="qq" data-i="${i}"><div class="qt"><span class="k">${ar(i+1)}.</span><span>${q.q}</span></div><div class="opts">${q.o.map((o,j)=>`<button class="opt" data-j="${j}"><span class="l">${LET[j]}</span><span>${o}</span></button>`).join('')}</div><div class="why" hidden></div></div>`).join('');
+  const ans={};
+  box.onclick=e=>{
+    const b=e.target.closest('.opt');if(!b)return;
+    const card=b.closest('.qq'),i=+card.dataset.i,q=QS[i];if(card.dataset.locked)return;
+    if(instant){
+      card.dataset.locked=1;const j=+b.dataset.j;ans[i]=j;
+      $$('.opt',card).forEach((o,k)=>{if(k===q.a)o.classList.add('right');else if(k===j)o.classList.add('wrong')});
+      const w=$('.why',card);w.hidden=false;w.innerHTML=(j===q.a?'إجابة صحيحة. ':'الإجابة الصحيحة: '+LET[q.a]+'. ')+q.w;
+      onScore&&onScore(Object.keys(ans).filter(k=>ans[k]===QS[k].a).length,Object.keys(ans).length);
+    }else{
+      $$('.opt',card).forEach(o=>o.classList.toggle('sel',o===b));ans[i]=+b.dataset.j;
+    }
+  };
+  return {ans,grade(){
+    let c=0;
+    $$('.qq',box).forEach((card,i)=>{
+      card.dataset.locked=1;const q=QS[i],j=ans[i];
+      $$('.opt',card).forEach((o,k)=>{o.classList.remove('sel');if(k===q.a)o.classList.add('right');else if(k===j)o.classList.add('wrong')});
+      if(j===q.a)c++;const w=$('.why',card);w.hidden=false;w.innerHTML=(j===q.a?'صحيح. ':j==null?'لم تُجب. ':'خطأ. ')+q.w;
+    });
+    return c;
+  }};
+}
+
+function initCompetition(boxId, logKey, CQ){
+  const box=$('#'+boxId);
+  const comp={g:[],qi:0,phase:'setup',left:QT,tick:null,t0:0,ans:{}};
+  function compSetup(){
+    comp.phase='setup'; const n=comp.g.length||4;
+    box.innerHTML=`<div class="ghead"><h3 style="font-size:21px">إعداد المسابقة</h3><button class="btn cFull">ملء الشاشة</button></div>
+    <p class="muted">${ar(CQ.length)} أسئلة · ${ar(QT)} ثانية لكل سؤال. تضغط كل مجموعة على حرف إجابتها، ويُحتسب زمن الإجابة.</p>
+    <div class="row" style="margin:12px 0"><label>عدد المجموعات</label><select class="cN">${[2,3,4,5,6].map(k=>`<option value="${k}" ${k===n?'selected':''}>${ar(k)}</option>`).join('')}</select></div>
+    <div class="groups cNames"></div><div class="row" style="margin-top:14px"><button class="btn pri cStart">ابدأ المسابقة</button></div>
+    <div class="cLog" style="margin-top:16px"></div>`;
+    const names=()=>{const k=+$('.cN',box).value;$('.cNames',box).innerHTML=[...Array(k)].map((_,i)=>`<div class="gp"><label>المجموعة ${ar(i+1)}</label><input value="${(comp.g[i]&&comp.g[i].name)||DEFAULT_G[i]||'المجموعة '+ar(i+1)}"></div>`).join('')};
+    names(); $('.cN',box).onchange=names;
+    $('.cFull',box).onclick=()=>{box.requestFullscreen&&box.requestFullscreen().catch(()=>{})};
+    $('.cStart',box).onclick=()=>{comp.g=$$('.cNames input',box).map(i=>({name:i.value.trim()||'مجموعة',pts:0,correct:0,time:0}));comp.qi=0;askQ()};
+    renderLog();
+  }
+  function askQ(){
+    comp.phase='ask'; comp.ans={}; comp.left=QT; comp.t0=performance.now(); const q=CQ[comp.qi];
+    box.innerHTML=`<div class="ghead"><span class="pill" style="background:transparent;color:inherit;border-color:var(--cline)">السؤال ${ar(comp.qi+1)} من ${ar(CQ.length)}</span><span class="score num cLeft">${ar(QT)} ث</span></div>
+    <div class="timer"><i class="cBar"></i></div><p class="cq">${q.q}</p><div class="copts">${q.o.map((o,j)=>`<div class="copt" data-j="${j}"><span class="l">${LET[j]}</span>${o}</div>`).join('')}</div>
+    <div class="groups">${comp.g.map((g,i)=>`<div class="gp" data-g="${i}"><div class="gn"><span>${g.name}</span><span class="num">${ar(g.pts)}</span></div><div class="gb">${LET.map((l,j)=>`<button data-j="${j}">${l}</button>`).join('')}</div><div class="st muted">بانتظار الإجابة</div></div>`).join('')}</div>
+    <div class="cRev" style="margin-top:12px"></div>`;
+    box.querySelectorAll('.gp').forEach(p=>p.onclick=e=>{
+      const b=e.target.closest('button');if(!b||comp.phase!=='ask')return;
+      const g=+p.dataset.g;if(comp.ans[g])return;
+      const t=(performance.now()-comp.t0)/1000;
+      comp.ans[g]={j:+b.dataset.j,t}; b.classList.add('pick');
+      $('.st',p).textContent=`أجابت خلال ${ar(t.toFixed(1))} ث`;
+      if(Object.keys(comp.ans).length===comp.g.length)reveal();
+    });
+    clearInterval(comp.tick);
+    comp.tick=setInterval(()=>{
+      const el=(performance.now()-comp.t0)/1000; comp.left=Math.max(0,QT-el);
+      const lt=$('.cLeft',box), bar=$('.cBar',box);
+      if(lt)lt.textContent=ar(Math.ceil(comp.left))+' ث';
+      if(bar)bar.style.width=(comp.left/QT*100)+'%';
+      if(comp.left<=0)reveal();
+    },200);
+  }
+  function reveal(){
+    if(comp.phase!=='ask')return; comp.phase='reveal'; clearInterval(comp.tick); const q=CQ[comp.qi];
+    $$('.copt',box).forEach(c=>c.classList.toggle('right',+c.dataset.j===q.a));
+    comp.g.forEach((g,i)=>{
+      const a=comp.ans[i], p=$(`.gp[data-g="${i}"]`,box); let got=0;
+      if(a&&a.j===q.a){
+        got=10+Math.round(5*Math.max(0,QT-a.t)/QT); g.correct++; g.time+=a.t; p.classList.add('ok');
+        $('.st',p).textContent=`صحيح · +${ar(got)} (دقة ١٠ + سرعة ${ar(got-10)})`;
+      }else{
+        p.classList.add('no'); $('.st',p).textContent=a?`خطأ · اختارت ${LET[a.j]}`:'انتهى الوقت';
+      }
+      g.pts+=got; $('.gn .num',p).textContent=ar(g.pts);
+    });
+    const last=comp.qi===CQ.length-1;
+    $('.cRev',box).innerHTML=`<div class="card"><b>التغذية الراجعة:</b> الإجابة الصحيحة (${LET[q.a]}) ${q.o[q.a]}. ${q.w}</div><div class="row" style="margin-top:10px"><button class="btn pri cNext">${last?'عرض النتائج':'السؤال التالي'}</button></div>`;
+    $('.cNext',box).onclick=()=>{if(last)finish();else{comp.qi++;askQ()}};
+  }
+  function ranked(){return comp.g.map((g,i)=>({...g,i})).sort((a,b)=>b.pts-a.pts||b.correct-a.correct||a.time-b.time)}
+  function finish(){
+    comp.phase='done'; const r=ranked(), top=r[0], win=r.filter(g=>g.pts===top.pts&&g.correct===top.correct&&Math.abs(g.time-top.time)<.05);
+    box.innerHTML=`<div class="ghead"><h3 style="font-size:21px">النتائج النهائية</h3><button class="btn cAgain">مسابقة جديدة</button></div>
+    <div class="tbl-wrap"><table class="board"><thead><tr><th>الترتيب</th><th>المجموعة</th><th>الإجابات الصحيحة</th><th>زمن الإجابة</th><th>النقاط</th></tr></thead><tbody>
+    ${r.map((g,k)=>`<tr class="${win.includes(g)?'win':''}"><td class="num">${ar(k+1)}</td><td>${g.name}</td><td class="num">${ar(g.correct)} / ${ar(CQ.length)}</td><td class="num">${ar(g.time.toFixed(1))} ث</td><td class="num">${ar(g.pts)}</td></tr>`).join('')}</tbody></table></div>
+    <div class="row" style="margin-top:12px"><button class="btn pri cSave">حفظ في سجل الدرجات</button><button class="btn cCopy">نسخ الدرجات (Excel)</button><button class="btn cShow">إعلان الفائز</button><span class="fb cFb"></span></div>
+    <div class="cLog" style="margin-top:16px"></div>`;
+    const tsv=()=>['الترتيب\tالمجموعة\tالصحيحة\tالزمن\tالنقاط',...r.map((g,k)=>`${k+1}\t${g.name}\t${g.correct}\t${g.time.toFixed(1)}\t${g.pts}`)].join('\n');
+    $('.cCopy',box).onclick=()=>copyText(tsv(),$('.cFb',box));
+    $('.cSave',box).onclick=()=>{
+      const log=store.get(logKey,[]);
+      log.unshift({d:new Date().toLocaleString('ar-OM'),r:r.map(g=>({n:g.name,c:g.correct,p:g.pts}))});
+      store.set(logKey,log.slice(0,20));
+      $('.cFb',box).className='fb ok'; $('.cFb',box).textContent='حُفظت في سجل الجهاز'; renderLog();
+    };
+    $('.cAgain',box).onclick=compSetup; $('.cShow',box).onclick=()=>announce(win); renderLog(); announce(win);
+  }
+  function renderLog(){
+    const el=$('.cLog',box);if(!el)return;const log=store.get(logKey,[]);if(!log.length){el.innerHTML='';return}
+    el.innerHTML=`<h3 style="font-size:17px;margin-bottom:6px">سجل الدرجات</h3><div class="tbl-wrap"><table class="board"><thead><tr><th>التاريخ</th><th>المجموعة · النقاط</th></tr></thead><tbody>${log.map(s=>`<tr><td>${s.d}</td><td>${s.r.map(g=>`${g.n}: ${ar(g.p)}`).join(' · ')}</td></tr>`).join('')}</tbody></table></div>`;
+  }
+  compSetup();
+}
+
+function announce(win){
+  $('#winName').textContent=win.map(g=>g.name).join(' و ');
+  $('#winPts').textContent=`${ar(win[0].pts)} نقطة · ${ar(win[0].correct)} إجابات صحيحة`;
+  $('#winOverlay').hidden=false; confetti();
+}
+$('#winClose').onclick=()=>{$('#winOverlay').hidden=true;$('#confetti').hidden=true};
+function confetti(){
+  if(RM)return;const c=$('#confetti'),x=c.getContext('2d');c.hidden=false;c.width=innerWidth;c.height=innerHeight;
+  const cols=['#F0A445','#3AB1A6','#E0677C','#4C70C8','#8A63B5','#6FA93A'];
+  const P=[...Array(150)].map(()=>({x:Math.random()*c.width,y:-Math.random()*c.height,vy:2+Math.random()*3,vx:-1+Math.random()*2,r:Math.random()*6.3,s:6+Math.random()*8,c:cols[Math.random()*6|0]}));
+  const t0=performance.now();
+  const f=now=>{
+    x.clearRect(0,0,c.width,c.height);
+    P.forEach(p=>{p.y+=p.vy;p.x+=p.vx;p.r+=.1;x.save();x.translate(p.x,p.y);x.rotate(p.r);x.fillStyle=p.c;x.fillRect(-p.s/2,-p.s/4,p.s,p.s/2);x.restore()});
+    if(now-t0<4500&&!c.hidden)requestAnimationFrame(f);else x.clearRect(0,0,c.width,c.height);
+  };
+  requestAnimationFrame(f);
+}
+
+function initHomework(prefix, storeKey, sessionTitle, tasks){
+  $(`#${prefix}HwTasks`).innerHTML=tasks.map((t,i)=>`<div class="field"><label for="${prefix}Hw${i}">${ar(i+1)}. ${t}</label><textarea id="${prefix}Hw${i}"></textarea></div>`).join('');
+  const saved=store.get(storeKey,{});
+  [`${prefix}HwName`,`${prefix}HwClass`,`${prefix}HwGroup`,...tasks.map((_,i)=>`${prefix}Hw${i}`)].forEach(id=>{
+    const el=$('#'+id);if(saved[id])el.value=saved[id];
+    el.addEventListener('input',()=>{saved[id]=el.value;store.set(storeKey,saved)});
+  });
+  $(`#${prefix}CopyMail`).onclick=e=>copyText(MAIL).then(ok=>{e.target.textContent=ok?'تم النسخ':'حدّد البريد وانسخه'});
+  $(`#${prefix}HwBuild`).onclick=()=>{
+    const nm=$(`#${prefix}HwName`).value.trim()||'—', cl=$(`#${prefix}HwClass`).value.trim()||'—', gr=$(`#${prefix}HwGroup`).value.trim()||'—';
+    const body=`الواجب المنزلي: ${sessionTitle} (الدرس ٧-٣)\nإعداد المعلم: أ/ عماد جابر - مدرسة محمد بن القاسم الثقفي\nالاسم: ${nm}\nالصف: ${cl}\nالمجموعة: ${gr}\n\n`+
+      tasks.map((t,i)=>`${ar(i+1)}) ${t}\nالحل: ${$(`#${prefix}Hw${i}`).value.trim()||'—'}`).join('\n\n');
+    $(`#${prefix}HwMsg`).textContent=body; $(`#${prefix}HwOut`).hidden=false;
+    $(`#${prefix}HwMailto`).href=`mailto:${MAIL}?subject=${encodeURIComponent('واجب '+sessionTitle+' - '+nm+' - '+cl)}&body=${encodeURIComponent(body)}`;
+  };
+  $(`#${prefix}HwCopy`).onclick=()=>copyText($(`#${prefix}HwMsg`).textContent,$(`#${prefix}HwFb`));
+}
+
+function initGame(prefix, challenges){
+  let idx=0, pts=0, streak=0, locked=false;
+  function load(){
+    locked=false; const c=challenges[idx];
+    $(`#${prefix}GQNo`).textContent=ar(idx+1); $(`#${prefix}GPts`).textContent=ar(pts); $(`#${prefix}GStreak`).textContent=ar(streak);
+    $(`#${prefix}GVisual`).innerHTML=`<div style="font-size:13.5px;color:var(--muted);font-weight:600">التجربة العشوائية</div><div style="font-family:var(--display);font-weight:800;font-size:22px;color:var(--teal);margin:6px 0">${c.given}</div><div class="pill">المطلوب: الاحتمال في أبسط صورة</div>`;
+    $(`#${prefix}GPrompt`).textContent=c.q; $(`#${prefix}GHint`).innerHTML='تلميح: '+c.h;
+    $(`#${prefix}GMsg`).className='verdict'; $(`#${prefix}GMsg`).textContent='اختر الإجابة الصحيحة في أبسط صورة.';
+    $(`#${prefix}GOpts`).innerHTML=c.opts.map((o,i)=>`<button class="btn" data-i="${i}">${o}</button>`).join('');
+  }
+  $(`#${prefix}GOpts`).addEventListener('click',e=>{
+    const b=e.target.closest('button');if(!b||locked)return;
+    locked=true; const chosen=+b.dataset.i, c=challenges[idx];
+    if(chosen===c.a){
+      pts+=15; streak++; b.classList.add('pri');
+      $(`#${prefix}GMsg`).className='verdict ok'; $(`#${prefix}GMsg`).textContent='أحسنت! +١٥ نقطة.';
+    }else{
+      streak=0; $(`#${prefix}GMsg`).className='verdict no'; $(`#${prefix}GMsg`).innerHTML='إجابة غير صحيحة. الصواب: '+c.opts[c.a];
+    }
+    $(`#${prefix}GPts`).textContent=ar(pts); $(`#${prefix}GStreak`).textContent=ar(streak);
+    setTimeout(()=>{idx=(idx+1)%challenges.length;load()},1600);
+  });
+  load();
+}
+
+/* ===================================================================== */
+/* ====================== SESSION 1 DATA & LOGIC ======================= */
+/* ===================================================================== */
+
+initCriteria('s1CritList','prob8-73-s1-crit',[
+  'أستطيع أن أُنشئ جدول فضاء الإمكانات (٣٦ زوجاً مرتباً) عند رمي حجري نرد ذوي ستة أوجه معاً.',
+  'أفهم معنى النتائج المتنافية وأُميّز بين الزوج (١ ، ٢) والزوج (٢ ، ١) كنتيجتين مستقلتين.',
+  'أستطيع أن أُنشئ جدول إجمالي الظهور (المجموع) لحجري النرد وأحسب الاحتمال في أبسط صورة (مثال ٧-٣).',
+  'أستطيع أن أحل تمارين الكتاب (١، ٢، ٣، ٤) حول رمي حجري النرد والفرق بين العددين.'
+]);
+
+$('#s1VocabList').innerHTML=[
+  ['النتائج المتنافية','نتائج لا يمكن أن تقع معاً في نفس المحاولة؛ ففي كل رمية لحجري النرد تظهر نتيجة واحدة فقط من أصل ٣٦ نتيجة.','--f1'],
+  ['فضاء الإمكانات','قائمة أو جدول بجميع النتائج المحتملة والمُرجَّحة بالتساوي لتجربة عشوائية، وعددها ٦ × ٦ = ٣٦ نتيجة عند رمي حجري نرد.','--f2'],
+  ['الزوج المرتب (أحمر، أزرق)','تمثيل نتيجة الحجر الأول (أحمر) والحجر الثاني (أزرق)؛ فالنتيجة (٢ ، ٥) تختلف عن النتيجة (٥ ، ٢).','--f4'],
+  ['جدول إجمالي الظهور','جدول ٦×٦ يُجمع فيه رقما الحجرين في كل خانة، ويظهر فيه المجموع ٧ أكبر عدد من المرات (٦ مرات) والمجموع ٢ و ١٢ مرة واحدة فقط.','--f3']
+].map(v=>`<div class="term"><b style="color:var(${v[2]})">${v[0]}</b><p>${v[1]}</p></div>`).join('');
+
+initFlips('s1Flips',[
+  ['ما العدد الكلي للنتائج المتنافية عند رمي حجري نرد ذوي ستة أوجه معاً؟','٦ × ٦ = ٣٦ نتيجة متنافية ومتساوية الاحتمال، احتمال كل منها '+frac(1,36)+'.'],
+  ['كيف نُبسّط الكسر '+frac(21,36)+' إلى أبسط صورة (مثال ٧-٣ ب)؟','نقسم كلاً من البسط والمقام على ٣: '+frac('٢١ ÷ ٣','٣٦ ÷ ٣')+' = '+frac(7,12)+'.'],
+  ['كيف نُبسّط الكسر '+frac(15,36)+' إلى أبسط صورة (مثال ٧-٣ ج)؟','نقسم البسط والمقام على ٣: '+frac('١٥ ÷ ٣','٣٦ ÷ ٣')+' = '+frac(5,12)+'.'],
+  ['ما الأعداد الأولية الموجودة بين مجاميع حجري النرد (من ٢ إلى ١٢)؟','الأعداد الأولية هي: ٢، ٣، ٥، ٧، ١١ (تذكّر أن العدد ١ ليس أولياً).']
+]);
+
+/* Session 1 Warmup (Maha's Error) */
+$('#s1WarmBtns').addEventListener('click',e=>{
+  const b=e.target.closest('button');if(!b)return;
+  const ok=b.dataset.ans==='right';
+  $('#s1WarmFb').className='fb '+(ok?'ok':'no');
+  $('#s1WarmFb').innerHTML=ok
+    ?'✓ أحسنت! خطأ مها أن الإجماليات الـ ١١ ليست مرجحة بالتساوي؛ فهناك ٣٦ نتيجة متساوية، وإجمالي ٣ يتحقق بطريقتين هما (١ ، ٢) و (٢ ، ١) ← '+frac(2,36)+' = '+frac(1,18)+'.'
+    :'✗ فكّر مرة أخرى: مها افترضت أن كل إجمالي له نفس الاحتمال، لكن إجمالي ٣ يتحقق بطريقتين من أصل ٣٦ زوجاً مرتباً!';
+});
+
+initFlow('s1FlowList',[
+  ['٤','دقائق','التهيئة والتمهيد: اكتشف خطأ مها (تمرين ٢)','يعرض قول مها حول وجود ١١ إجمالياً محتملاً لحجري النرد ويسأل الطلاب عن مكمن الخطأ الرياضي.','يناقش تساوي الفرص ويستنتج أن إجمالي ٣ يتحقق بزوجين من أصل ٣٦.'],
+  ['٥','دقائق','التعلّم القبلي ومفردات فضاء الإمكانات','يعرّف النتائج المتنافية وفضاء الإمكانات، ويراجع تبسيط الكسور ذات المقام ٣٦ والأعداد الأولية.','يراجع البطاقات التفاعلية ويسترجع قواعد التبسيط.'],
+  ['٨','دقائق','الاستكشاف: مختبر الـ ٣٦ نتيجة ومثال (٧-٣)','يشرح بناء جدول الأزواج المرتبة (أحمر، أزرق) وجدول المجاميع (مثال ٧-٣) على الشاشة.','يستكشف الجدولين التفاعليين ويظلل أحداث المثال (المجموع ٨، أصغر من ٨، ٨ أو أكثر) أو يظلل يدوياً.'],
+  ['١٠','دقائق','التطبيق المتمايز: تمارين الكتاب (١، ٣، ٤)','يوجّه الطلاب لاختيار مسارهم المناسب لحل تمرين (١) العدد ٤، وتمرين (٣) المجموع، وتمرين (٤) الفرق بين العددين.','يحل تمارين مساره ويدخل الكسور في صورة بسط ومقام للتحقق الفوري.'],
+  ['٥','دقائق','مسابقة الحصة الأولى والتقويم التكويني','يدير مسابقة المجموعات الصفية (٣٠ ثانية لكل سؤال) حول فضاء الإمكانات لحجري النرد.','تتنافس المجموعات في المسابقة ويجيب الطالب عن أسئلة التقويم التكويني.'],
+  ['٣','دقائق','الغلق والتقويم الختامي والواجب','يلخّص الحصة الأولى بالخريطة الذهنية ويكلّف الطلاب بواجب الحصة الأولى.','يحل التقويم الختامي للحصة الأولى ويرسل الواجب للمعلم.']
+]);
+
+/* Session 1 Interactive 6x6 Sample Space Lab */
+{
+  let mode='pairs', curEv=0, pickedR=-1, pickedB=-1, manualMode=false;
+  const manualSet=new Set();
+  const gcd=(a,b)=>b===0?a:gcd(b,a%b);
+  const EVENTS=[
+    {lbl:'مثال (٧-٣ أ): المجموع = ٨', fn:(r,b)=>r+b===8, n:5, d:36, exp:'العدد ٨ مكرّر خمس مرات في الجدول (٢+٦، ٣+٥، ٤+٤، ٥+٣، ٦+٢) ← الاحتمال = '+frac(5,36)},
+    {lbl:'مثال (٧-٣ ب): أصغر من ٨', fn:(r,b)=>r+b<8, n:7, d:12, exp:'يوجد ٢١ عدداً في الجدول أصغر من ٨ من أصل ٣٦ ← '+frac(21,36)+' = '+frac(7,12)},
+    {lbl:'مثال (٧-٣ ج): ٨ أو أكثر', fn:(r,b)=>r+b>=8, n:5, d:12, exp:'يوجد ١٥ عدداً هم ٨ أو أكبر من ٨ ← '+frac(15,36)+' = '+frac(5,12)},
+    {lbl:'تمرين (١ ج): العدد ٤ مرة واحدة', fn:(r,b)=>(r===4)^(b===4), n:5, d:18, exp:'يظهر العدد ٤ في حجر واحد فقط (دون ٤ و ٤) في ١٠ خلايا ← '+frac(10,36)+' = '+frac(5,18)},
+    {lbl:'تمرين (٣ و): المجموع عدد فردي', fn:(r,b)=>(r+b)%2===1, n:1, d:2, exp:'نصف الخانات (١٨ خانة من ٣٦) مجموعها عدد فردي ← '+frac(18,36)+' = '+frac(1,2)},
+    {lbl:'تمرين (٤ أ): الأعداد هي نفسها', fn:(r,b)=>r===b, n:1, d:6, exp:'القطر (١،١) إلى (٦،٦) يحوي ٦ نتائج من ٣٦ ← '+frac(6,36)+' = '+frac(1,6)},
+    {lbl:'تمرين (٤ ب): الفرق بين العددين ٢', fn:(r,b)=>Math.abs(r-b)===2, n:2, d:9, exp:'الأزواج هي (١،٣)، (٢،٤)، (٣،٥)، (٤،٦) وعكسها = ٨ نتائج من ٣٦ ← '+frac(8,36)+' = '+frac(2,9)}
+  ];
+
+  function renderMatrix(){
+    const ev=curEv>=0?EVENTS[curEv]:null;
+    let html='<table class="ss-table"><thead><tr><th class="row-h">أحمر \\ أزرق</th>';
+    for(let b=1;b<=6;b++) html+=`<th>${ar(b)}</th>`;
+    html+='</tr></thead><tbody>';
+    let cnt=0;
+    for(let r=1;r<=6;r++){
+      html+=`<tr><th class="row-h">${ar(r)}</th>`;
+      for(let b=1;b<=6;b++){
+        const key=`${r},${b}`;
+        const hit=manualMode?manualSet.has(key):(ev?ev.fn(r,b):false);
+        if(hit)cnt++;
+        const pk=(r===pickedR && b===pickedB);
+        const cellTxt=(mode==='pairs')
+          ? `<span dir="ltr">(<span class="red-num">${ar(r)}</span> ، <span class="blue-num">${ar(b)}</span>)</span>`
+          : `${ar(r+b)}`;
+        html+=`<td data-r="${r}" data-b="${b}" class="${hit?'hl':''} ${pk?'picked':''}">${cellTxt}</td>`;
+      }
+      html+='</tr>';
+    }
+    html+='</tbody></table>';
+    $('#s1MatrixWrap').innerHTML=html;
+    $('#s1StFav').textContent=ar(cnt);
+
+    if(manualMode){
+      const g=cnt>0?gcd(cnt,36):36;
+      const sn=cnt/g, sd=36/g;
+      $('#s1StProb').innerHTML=frac(sn,sd);
+      $('#s1LabExplain').innerHTML=cnt===0
+        ?'✍️ <b>وضع التظليل اليدوي مفعّل:</b> انقر على أي خلية في الجدول أعلاه لتظليلها وحساب احتمالها.'
+        :`✍️ <b>تظليل الطالب اليدوي:</b> ظلّلت <b>${ar(cnt)}</b> من أصل <b>٣٦</b> نتيجة ← الاحتمال = ${frac(cnt,36)}${g>1?' = '+frac(sn,sd)+' (في أبسط صورة)':''}`;
+    }else if(ev){
+      $('#s1StProb').innerHTML=frac(ev.n,ev.d);
+      $('#s1LabExplain').innerHTML=ev.exp;
+    }else{
+      $('#s1StProb').innerHTML=frac(0,36);
+      $('#s1LabExplain').innerHTML='تم محو التظليل. اختر حدثاً من الأزرار أعلاه أو فعّل «✍️ تظليل الطالب يدوياً» للنقر على الخلايا.';
+    }
+  }
+
+  $('#s1EventBtns').innerHTML=EVENTS.map((e,i)=>`<button class="btn ${i===0?'pri':''}" data-ei="${i}">${e.lbl}</button>`).join('');
+  $('#s1EventBtns').addEventListener('click',e=>{
+    const b=e.target.closest('button');if(!b)return;
+    manualMode=false;
+    $('#s1ManualBtn').classList.remove('on');
+    curEv=+b.dataset.ei;
+    $$('#s1EventBtns button').forEach((x,i)=>x.classList.toggle('pri',i===curEv));
+    renderMatrix();
+  });
+
+  $('#s1ManualBtn').onclick=()=>{
+    manualMode=true;
+    curEv=-1;
+    $$('#s1EventBtns button').forEach(x=>x.classList.remove('pri'));
+    $('#s1ManualBtn').classList.add('on');
+    renderMatrix();
+  };
+
+  $('#s1ClearBtn').onclick=()=>{
+    manualSet.clear();
+    pickedR=-1; pickedB=-1;
+    if(!manualMode){
+      curEv=-1;
+      $$('#s1EventBtns button').forEach(x=>x.classList.remove('pri'));
+    }
+    $('#s1RollRes').textContent='اضغط لرمي الحجرين';
+    renderMatrix();
+  };
+
+  $('#s1MatrixWrap').addEventListener('click',e=>{
+    const td=e.target.closest('td[data-r]');if(!td)return;
+    if(!manualMode){
+      manualMode=true;
+      curEv=-1;
+      $$('#s1EventBtns button').forEach(x=>x.classList.remove('pri'));
+      $('#s1ManualBtn').classList.add('on');
+    }
+    const key=`${td.dataset.r},${td.dataset.b}`;
+    if(manualSet.has(key)) manualSet.delete(key);
+    else manualSet.add(key);
+    renderMatrix();
+  });
+
+  $('#s1TableMode').addEventListener('click',e=>{
+    const b=e.target.closest('button');if(!b)return;
+    mode=b.dataset.m;
+    $$('#s1TableMode button').forEach(x=>x.classList.toggle('on',x===b));
+    renderMatrix();
+  });
+  $('#s1RollBtn').onclick=()=>{
+    pickedR=1+Math.floor(Math.random()*6);
+    pickedB=1+Math.floor(Math.random()*6);
+    const key=`${pickedR},${pickedB}`;
+    const hit=manualMode?manualSet.has(key):(curEv>=0?EVENTS[curEv].fn(pickedR,pickedB):false);
+    $('#s1RollRes').textContent=`أحمر: ${ar(pickedR)} ، أزرق: ${ar(pickedB)} (المجموع ${ar(pickedR+pickedB)}) · ${hit?'يحقق الحدث ✓':'لا يحقق الحدث'}`;
+    renderMatrix();
+  };
+  renderMatrix();
+}
+
+/* Session 1 Differentiation */
+initDiff('s1DiffTabs','s1DiffContent','s1d',{
+  1:[
+    {tag:'تمرين (١ أ) — رمي حجري نرد',cls:'g',q:'يرمي راشد حجري نرد ذوي ستة أوجه متكافئي الفرص معاً. ما احتمال الحصول على العدد ٤ في الحجرين؟',scaff:'توجد نتيجة واحدة فقط يظهر فيها العدد ٤ في الحجرين معاً وهي (٤ ، ٤) من أصل ٣٦.',n:1,d:36,sol:frac(1,36)},
+    {tag:'تمرين (١ ب) — رمي حجري نرد',cls:'g',q:'ما احتمال عدم الحصول على العدد ٤ في أيٍّ من الحجرين؟',scaff:'عدد النواتج التي لا تحوي ٤ في الأول (٥) ولا في الثاني (٥) = ٥ × ٥ = ٢٥ من أصل ٣٦.',n:25,d:36,sol:frac(25,36)},
+    {tag:'تمرين (١ ج) — رمي حجري نرد (أبسط صورة)',cls:'g',q:'ما احتمال الحصول على العدد ٤ مرة واحدة فقط (في أحد الحجرين دون الآخر) في أبسط صورة؟',scaff:'الأزواج هي (٤،١)، (٤،٢)، (٤،٣)، (٤،٥)، (٤،٦) وعكسها = ١٠ نتائج من ٣٦ ← '+frac(10,36)+' وبسّط.',n:5,d:18,sol:frac(10,36)+' = '+frac(5,18)}
+  ],
+  2:[
+    {tag:'تمرين (٣ د) — مجموع حجري النرد (أبسط صورة)',cls:'m',q:'يرمي مهنّد حجري نرد ذوي ستة أوجه ويجمع الأعداد معاً. أوجد احتمال أن الإجمالي سيكون ٧ (في أبسط صورة).',scaff:'الإجمالي ٧ هو الأكثر تكراراً ويظهر ٦ مرات في القطر (١+٦، ٢+٥، ٣+٤، ٤+٣، ٥+٢، ٦+١) من ٣٦ ← '+frac(6,36)+'.',n:1,d:6,sol:frac(6,36)+' = '+frac(1,6)},
+    {tag:'تمرين (٣ هـ) — مجموع حجري النرد (أبسط صورة)',cls:'m',q:'أوجد احتمال أن الإجمالي سيكون أصغر من ٧ (في أبسط صورة).',scaff:'الإجماليات الأصغر من ٧ هي: ٢ (مرة)، ٣ (مرتان)، ٤ (٣ مرات)، ٥ (٤ مرات)، ٦ (٥ مرات) = ١٥ نتيجة من ٣٦.',n:5,d:12,sol:frac(15,36)+' = '+frac(5,12)},
+    {tag:'تمرين (٣ ز) — المجموع عدد أولي (أبسط صورة)',cls:'m',q:'أوجد احتمال أن الإجمالي سيكون عدداً أولياً (٢، ٣، ٥، ٧، ١١) في أبسط صورة.',scaff:'اجمع تكرارات ٢ (١) + ٣ (٢) + ٥ (٤) + ٧ (٦) + ١١ (٢) = ١٥ نتيجة من ٣٦ ← '+frac(15,36)+'.',n:5,d:12,sol:frac(15,36)+' = '+frac(5,12)}
+  ],
+  3:[
+    {tag:'تمرين (٤ أ) — تساوي العددين (أبسط صورة)',cls:'h',q:'يرمي فهد حجري نرد ذوي ستة أوجه معاً. أوجد احتمال أن الأعداد هي نفسها (في أبسط صورة).',scaff:'الأزواج المتساوية هي (١،١)، (٢،٢)، (٣،٣)، (٤،٤)، (٥،٥)، (٦،٦) وعددها ٦ من ٣٦.',n:1,d:6,sol:frac(6,36)+' = '+frac(1,6)},
+    {tag:'تمرين (٤ ب) — الفرق بين العددين ٢ (أبسط صورة)',cls:'h',q:'يرمي فهد حجري نرد ذوي ستة أوجه معاً. أوجد احتمال أن الفرق بين العددين هو ٢ (في أبسط صورة).',scaff:'الأزواج التي فرقها ٢ هي: (١،٣)، (٣،١)، (٢،٤)، (٤،٢)، (٣،٥)، (٥،٣)، (٤،٦)، (٦،٤) وعددها ٨ من ٣٦.',n:2,d:9,sol:frac(8,36)+' = '+frac(2,9)},
+    {tag:'مسألة إثرائية — الفرق بين العددين أكبر من ٣',cls:'h',q:'عند رمي حجري نرد معاً، ما احتمال أن يكون الفرق بين العددين الظاهرين ٤ أو ٥ (في أبسط صورة)؟',scaff:'فرق ٤: (١،٥)، (٥،١)، (٢،٦)، (٦،٢) [٤ أزواج] + فرق ٥: (١،٦)، (٦،١) [زوجان] = ٦ من ٣٦.',n:1,d:6,sol:frac(6,36)+' = '+frac(1,6)}
+  ]
+});
+
+/* Session 1 Formative & Final Quizzes */
+const S1_FORM=[
+  {q:'ما العدد الكلي للنتائج المتنافية في فضاء الإمكانات عند رمي حجري نرد ذوي ستة أوجه معاً؟',o:['١٢','١١','٣٦','٦'],a:2,w:'لكل حجر ٦ أوجه، فيكون العدد الكلي ٦ × ٦ = ٣٦ نتيجة متنافية.'},
+  {q:'في مثال (٧-٣)، رُمي حجرا نرد وجُمعت النتائج. ما احتمال الحصول على عددين مجموعهما ٨؟',o:[frac(5,36),frac(1,6),frac(8,36),frac(1,11)],a:0,w:'العدد ٨ يتكرر ٥ مرات في الجدول (٢+٦، ٣+٥، ٤+٤، ٥+٣، ٦+٢) من ٣٦ ← '+frac(5,36)+'.'},
+  {q:'ما الإجمالي المُرجَّح الذي يمكن تحقيقه بشكل أكبر عند رمي حجري نرد وجمع الأعداد؟',o:['٦','٧','٨','١٢'],a:1,w:'المجموع ٧ يتحقق بـ ٦ طرق مختلفة (١+٦، ٢+٥، ٣+٤، ٤+٣، ٥+٢، ٦+١) فهو الأكثر احتمالاً.'},
+  {q:'عند رمي حجري نرد معاً، ما احتمال أن تكون الأعداد الظاهرة هي نفسها في أبسط صورة؟',o:[frac(1,36),frac(1,6),frac(1,12),frac(2,6)],a:1,w:'توجد ٦ نتائج متشابهة من (١،١) إلى (٦،٦) من أصل ٣٦ ← '+frac(6,36)+' = '+frac(1,6)+'.'}
+];
+renderQuiz($('#s1FormQuiz'),S1_FORM,true,(c,n)=>{
+  $('#s1FormScore').textContent=`النتيجة: ${ar(c)} من ${ar(n)}`+(n===S1_FORM.length?(c===n?' · ممتاز!':c>=3?' · أحسنت':' · راجع الأمثلة'):'');
+});
+
+const S1_FIN=[
+  {q:'في مثال (٧-٣)، ما احتمال الحصول على عددين مجموعهما أصغر من ٨ عند رمي حجري نرد؟',o:[frac(5,12),frac(7,12),frac(21,36),frac(1,2)],a:1,w:'يوجد ٢١ عدداً في الجدول أصغر من ٨ من أصل ٣٦ ← '+frac(21,36)+' = '+frac(7,12)+'.'},
+  {q:'يرمي راشد حجري نرد معاً. ما احتمال الحصول على العدد ٤ مرة واحدة فقط (في أحد الحجرين دون الآخر)؟',o:[frac(1,36),frac(5,18),frac(11,36),frac(1,6)],a:1,w:'توجد ١٠ نتائج يظهر فيها ٤ مرة واحدة فقط من أصل ٣٦ ← '+frac(10,36)+' = '+frac(5,18)+'.'},
+  {q:'قالت مها: «احتمال إجمالي ٣ عند رمي حجري نرد هو '+frac(1,11)+'». ما الاحتمال الصحيح لإجمالي ٣؟',o:[frac(1,36),frac(1,18),frac(3,36),frac(2,11)],a:1,w:'إجمالي ٣ يتحقق بزوجين فقط هما (١،٢) و (٢،١) من ٣٦ ← '+frac(2,36)+' = '+frac(1,18)+'.'},
+  {q:'يرمي مهنّد حجري نرد ويجمع الأعداد. ما احتمال أن يكون الإجمالي عدداً أولياً في أبسط صورة؟',o:[frac(5,12),frac(1,2),frac(7,12),frac(17,36)],a:0,w:'المجاميع الأولية هي ٢، ٣، ٥، ٧، ١١ ومجموع تكراراتها ١٥ من ٣٦ ← '+frac(15,36)+' = '+frac(5,12)+'.'},
+  {q:'يرمي فهد حجري نرد معاً. ما احتمال أن يكون الفرق بين العددين هو ٢ في أبسط صورة؟',o:[frac(1,9),frac(2,9),frac(1,6),frac(1,4)],a:1,w:'الأزواج التي فرقها ٢ عددها ٨ من ٣٦ ← '+frac(8,36)+' = '+frac(2,9)+'.'},
+  {q:'ماذا يعني أن نتائج رمي حجري النرد «نتائج متنافية»؟',o:['أن مجموعها دائماً زوجي','أنها تحدث في حالة وجوب حدوث نتيجة واحدة فقط في كل رمية','أن عددها ١١ نتيجة فقط','أنها لا تحتاج إلى جدول'],a:1,w:'تكون النتائج متنافية في حالة وجوب حدوث نتيجة واحدة فقط في المحاولة الواحدة.'}
+];
+let s1Fin=renderQuiz($('#s1FinQuiz'),S1_FIN,false);
+$('#s1FinSubmit').onclick=()=>{
+  const c=s1Fin.grade(), n=S1_FIN.length, p=Math.round(c/n*100);
+  const lvl=p>=90?'ممتاز':p>=75?'جيد جدًا':p>=60?'جيد':'يحتاج إلى مراجعة';
+  const nm=$('#s1FinName').value.trim()||'الطالب';
+  $('#s1FinResult').innerHTML=`<div class="result"><span>${nm} · الحصة الأولى</span><b class="num">${ar(c)} / ${ar(n)}</b><span>النسبة ${ar(p)}٪ · المستوى: ${lvl}</span></div>`;
+  $('#s1FinResult').scrollIntoView({behavior:RM?'auto':'smooth',block:'nearest'});
+};
+$('#s1FinReset').onclick=()=>{s1Fin=renderQuiz($('#s1FinQuiz'),S1_FIN,false);$('#s1FinResult').innerHTML=''};
+
+/* Session 1 Competition */
+initCompetition('s1CompBox','prob8-73-s1-comp',[
+  {q:'كم عدد النتائج المتنافية في فضاء الإمكانات عند رمي حجري نرد ذوي ستة أوجه معاً؟',o:['١٢','١١','٣٦','٦'],a:2,w:'٦ × ٦ = ٣٦ نتيجة متنافية.'},
+  {q:'عند رمي حجري نرد وجمع النتائج، ما احتمال الحصول على مجموع يساوي ٨؟',o:[frac(5,36),frac(1,6),frac(8,36),frac(1,9)],a:0,w:'المجموع ٨ يظهر ٥ مرات من ٣٦ ← '+frac(5,36)+'.'},
+  {q:'ما احتمال الحصول على العدد ٤ في الحجرين معاً عند رمي حجري نرد؟',o:[frac(2,36),frac(1,36),frac(1,6),frac(11,36)],a:1,w:'نتيجة واحدة فقط هي (٤ ، ٤) من ٣٦ ← '+frac(1,36)+'.'},
+  {q:'عند رمي حجري نرد وجمع الأعداد، ما الإجمالي الأقل احتمالاً للظهور؟',o:['٢ أو ١٢','٧','٦ أو ٨','١١'],a:0,w:'كل من ٢ و ١٢ يتحقق بطريقة واحدة فقط (١+١) أو (٦+٦) واحتماله '+frac(1,36)+'.'},
+  {q:'ما احتمال أن يكون مجموع حجري النرد عدداً فردياً في أبسط صورة؟',o:[frac(1,3),frac(1,2),frac(5,12),frac(7,12)],a:1,w:'١٨ نتيجة من ٣٦ مجموعها فردي ← '+frac(18,36)+' = '+frac(1,2)+'.'},
+  {q:'عند رمي حجري نرد معاً، ما احتمال أن تكون الأعداد هي نفسها في أبسط صورة؟',o:[frac(1,36),frac(1,6),frac(6,12),frac(1,12)],a:1,w:'٦ نتائج من (١،١) إلى (٦،٦) من ٣٦ ← '+frac(6,36)+' = '+frac(1,6)+'.'}
+]);
+
+/* Session 1 Homework */
+initHomework('s1','prob8-73-s1-hw','الحصة الأولى: فضاء الإمكانات لرمي حجري نرد (٣٦ نتيجة)',[
+  'يرمي مهنّد حجري نرد ذوي ستة أوجه ويجمع الأعداد معاً. أوجد احتمال أن الإجمالي سيكون: (ج) ٢ ، (د) ٧ ، (هـ) أصغر من ٧ ، (و) عدداً فردياً ، (ز) عدداً أولياً (تمرين ٣).',
+  'يرمي فهد حجري نرد ذوي ستة أوجه معاً. أوجد احتمال أن: (أ) الأعداد هي نفسها ، (ب) الفرق بين العددين هو ٢ (تمرين ٤).'
+]);
+
+/* Session 1 Mind Map SVG */
+{
+  function svgFrac(x,y,n,d,fill='var(--ink)'){
+    return `<g font-family="IBM Plex Sans Arabic,sans-serif" font-weight="700" font-size="14" fill="${fill}" text-anchor="middle">
+      <text x="${x}" y="${y-4}">${ar(n)}</text>
+      <line x1="${x-14}" y1="${y}" x2="${x+14}" y2="${y}" stroke="${fill}" stroke-width="1.5"/>
+      <text x="${x}" y="${y+14}">${ar(d)}</text>
+    </g>`;
+  }
+  const B=[
+    {t:'النتائج المتنافية',x:835,y:70,c:'--f2',l:['وقوع نتيجة واحدة فقط في الرمية','عدم إمكانية حدوث نتيجتين معاً','جميع النتائج الـ ٣٦ متساوية الاحتمال']},
+    {t:'جدول الأزواج (أحمر، أزرق)',x:835,y:345,c:'--f1',l:['٦ صفوف × ٦ أعمدة = ٣٦ زوجاً مرتباً','الزوج (٢،٥) يختلف عن الزوج (٥،٢)','الأعداد المتشابهة في القطر = ٦ نتائج']},
+    {t:'مثال (٧-٣): جدول المجموع',x:165,y:70,c:'--f3',l:['المجاميع الممكنة من ٢ إلى ١٢','الأكثر تكراراً: ٧ (٦ مرات من ٣٦)','الأقل تكراراً: ٢ و ١٢ (مرة واحدة)']},
+    {t:'تصحيح خطأ مها (تمرين ٢)',x:165,y:345,c:'--f5',l:['الإجماليات ١١ لكنها غير متساوية الفرص','المقام الصحيح هو ٣٦ وليس ١١','إجمالي ٣ يتحقق بزوجين (١،٢) و (٢،١)']}
+  ];
+  const W=1000, Hh=630, cx=500, cy=285;
+  let s=`<svg viewBox="0 0 ${W} ${Hh}" role="img" aria-label="خريطة ذهنية للحصة الأولى" style="font-family:'IBM Plex Sans Arabic',sans-serif">`;
+  B.forEach(b=>{s+=`<path d="M${cx},${cy} Q${(cx+b.x)/2},${b.y} ${b.x},${b.y}" style="fill:none;stroke:var(${b.c});stroke-width:5;stroke-linecap:round"/>`});
+  s+=`<path d="M${cx},${cy} L${cx},490" style="fill:none;stroke:var(--f4);stroke-width:5;stroke-linecap:round"/>`;
+
+  B.forEach(b=>{
+    b.l.forEach((_,i)=>{const y=b.y+58+i*46;s+=`<line x1="${b.x}" y1="${b.y+22}" x2="${b.x}" y2="${y}" style="stroke:var(${b.c});stroke-width:2"/>`});
+    s+=`<rect x="${b.x-135}" y="${b.y-24}" width="270" height="48" rx="24" style="fill:var(${b.c})"/><text x="${b.x}" y="${b.y+7}" text-anchor="middle" style="fill:#fff;font-size:17.5px;font-weight:800;font-family:'Cairo',sans-serif">${b.t}</text>`;
+    b.l.forEach((l,i)=>{const y=b.y+58+i*46;s+=`<rect x="${b.x-150}" y="${y-17}" width="300" height="34" rx="9" style="fill:var(--soft);stroke:var(${b.c});stroke-width:1.5"/><text x="${b.x}" y="${y+6}" text-anchor="middle" style="fill:var(--ink);font-size:15px">${l}</text>`});
+  });
+
+  s+=`<rect x="340" y="465" width="320" height="48" rx="24" style="fill:var(--f4)"/><text x="500" y="496" text-anchor="middle" style="fill:#fff;font-size:18px;font-weight:800;font-family:'Cairo',sans-serif">أمثلة التبسيط من مثال (٧-٣)</text>`;
+  s+=`<line x1="500" y1="513" x2="300" y2="560" style="stroke:var(--f4);stroke-width:2"/>`;
+  s+=`<rect x="115" y="545" width="370" height="54" rx="10" style="fill:var(--soft);stroke:var(--f4);stroke-width:1.5"/>`;
+  s+=`<text x="415" y="577" text-anchor="middle" style="fill:var(--ink);font-size:15px;font-weight:700">مجموع أصغر من ٨:</text>`;
+  s+=svgFrac(300, 572, 21, 36);
+  s+=`<text x="260" y="577" text-anchor="middle" style="fill:var(--ink);font-size:16px;font-weight:700">=</text>`;
+  s+=svgFrac(220, 572, 7, 12);
+
+  s+=`<line x1="500" y1="513" x2="700" y2="560" style="stroke:var(--f4);stroke-width:2"/>`;
+  s+=`<rect x="520" y="545" width="360" height="54" rx="10" style="fill:var(--soft);stroke:var(--f4);stroke-width:1.5"/>`;
+  s+=`<text x="805" y="577" text-anchor="middle" style="fill:var(--ink);font-size:15px;font-weight:700">مجموع ٨ أو أكثر:</text>`;
+  s+=svgFrac(705, 572, 15, 36);
+  s+=`<text x="665" y="577" text-anchor="middle" style="fill:var(--ink);font-size:16px;font-weight:700">=</text>`;
+  s+=svgFrac(625, 572, 5, 12);
+
+  s+=`<rect x="${cx-185}" y="${cy-44}" width="370" height="88" rx="20" style="fill:var(--ink)"/><text x="${cx}" y="${cy-5}" text-anchor="middle" style="fill:var(--paper);font-size:21px;font-weight:800;font-family:'Cairo',sans-serif">الحصة الأولى: ٧-٣</text><text x="${cx}" y="${cy+27}" text-anchor="middle" style="fill:var(--paper);font-size:20px;font-weight:800;font-family:'Cairo',sans-serif">فضاء الإمكانات (٣٦ نتيجة)</text></svg>`;
+  $('#s1MindMap').innerHTML=s;
+}
+
+/* Session 1 Game */
+initGame('s1',[
+  {given:'رمي حجري نرد (٣٦ نتيجة)',q:'ما احتمال الحصول على العدد ٦ مرتين (٦ ، ٦)؟',h:'نتيجة واحدة فقط من ٣٦',opts:[frac(1,6),frac(1,36),frac(2,36),frac(1,12)],a:1},
+  {given:'مثال (٧-٣): جمع عددي حجري النرد',q:'ما احتمال الحصول على مجموع يساوي ٨؟',h:'العدد ٨ يظهر ٥ مرات في الجدول من ٣٦',opts:[frac(5,36),frac(1,6),frac(8,36),frac(1,9)],a:0},
+  {given:'تمرين (٣): جمع عددي حجري النرد',q:'ما احتمال الحصول على مجموع يساوي ٧ في أبسط صورة؟',h:'المجموع ٧ يظهر ٦ مرات في القطر من ٣٦',opts:[frac(1,7),frac(1,6),frac(7,36),frac(5,36)],a:1},
+  {given:'تمرين (٤): رمي حجري نرد معاً',q:'ما احتمال أن تكون الأعداد الظاهرة هي نفسها؟',h:'(١،١) إلى (٦،٦) = ٦ نتائج من ٣٦',opts:[frac(1,36),frac(1,6),frac(1,12),frac(1,3)],a:1},
+  {given:'تمرين (٢): خطأ مها',q:'ما الاحتمال الصحيح للحصول على إجمالي يساوي ٣؟',h:'يتحقق بالزوجين (١،٢) و (٢،١) من ٣٦',opts:[frac(1,11),frac(1,18),frac(1,36),frac(3,36)],a:1},
+  {given:'مثال (٧-٣): جمع عددي حجري النرد',q:'ما احتمال الحصول على مجموع أصغر من ٨ في أبسط صورة؟',h:'٢١ نتيجة من ٣٦ ← اقسم على ٣',opts:[frac(5,12),frac(7,12),frac(1,2),frac(21,35)],a:1}
+]);
+
+/* ===================================================================== */
+/* ====================== SESSION 2 DATA & LOGIC ======================= */
+/* ===================================================================== */
+
+initCriteria('s2CritList','prob8-73-s2-crit',[
+  'أستطيع أن أُنشئ جدول النتائج المتنافية لتجربة مركبة من عملة وحجر نرد (١٢ نتيجة) كما في تمرين (٥).',
+  'أستطيع أن أُكمل الجداول ذات الاتجاهين للجمع (تمرين ٦: الدوّاران) وللضرب (تمرين ٧: ضرب حجري النرد).',
+  'أفهم سبب وجود الرمز (x) في القطر الرئيسي عند السحب دون إرجاع (تمرين ٨: أقلام حسن) وأحسب الاحتمال من ٢٠ نتيجة.',
+  'أستطيع أن أُمثّل نتائج لعبة «حجر، ورقة، مقص» في جدول (٩ نتائج) وأحسب احتمال الفوز والتعادل (تمرين ٩).'
+]);
+
+$('#s2VocabList').innerHTML=[
+  ['الجدول ذو الاتجاهين','جدول يُنظّم نواتج تجربتين معاً؛ تُكتب نواتج التجربة الأولى في الصفوف ونواتج الثانية في الأعمدة لتحديد جميع الأزواج أو العمليات.','--f1'],
+  ['السحب دون إرجاع والرمز (x)','عند سحب عنصر دون إعادته (تمرين ٨: أقلام حسن)، يستحيل اختيار العنصر نفسه مرتين فيُوضع الرمز (x) في القطر ويُطرح من العدد الكلي.','--f3'],
+  ['التكرار في الدوّارات غير المنتظمة','إذا تكرّر رقم على دوّار (مثل ١، ١، ٣ في تمرين ٦)، يجب كتابته مرتين في رأس الجدول لضمان تكافؤ فرص كل قسم.','--f2'],
+  ['الألعاب المتكافئة (حجر، ورقة، مقص)','تنتج ٩ حالات متساوية: ٣ حالات تعادل، ٣ حالات فوز للاعب الأول، و٣ حالات فوز للاعب الثاني.','--f4']
+].map(v=>`<div class="term"><b style="color:var(${v[2]})">${v[0]}</b><p>${v[1]}</p></div>`).join('');
+
+initFlips('s2Flips',[
+  ['كم عدد النتائج المتنافية عند رمي عملة معدنية وحجر نرد معاً (تمرين ٥)؟','٢ (للعملة) × ٦ (لحجر النرد) = ١٢ نتيجة متنافية ومتساوية الاحتمال.'],
+  ['لماذا نكتب العدد ١ مرتين في جدول الدوّار (١، ١، ٣) في تمرين (٦)؟','لأن للدوّار ثلاثة أقسام متكافئة الفرص، وتكرار ١ مرتين يعكس أن احتمال ظهوره ضعف احتمال ظهور ٣.'],
+  ['لماذا يوجد الرمز (x) في القطر الرئيسي لجدول أقلام حسن (تمرين ٨)؟','لأن حسن التقط قلماً دون إرجاعه ثم التقط قلماً آخر؛ فيستحيل سحب القلم نفسه مرتين، فتبقى ٢٠ نتيجة ممكنة من ٢٥.'],
+  ['كم نتيجة متاحة ومختلفة لناتج ضرب عددي حجري النرد (تمرين ٧)؟','يوجد ١٨ ناتج ضرب مختلفاً (مثل ١، ٢، ٣، ٤، ٥، ٦، ٨، ٩، ١٠، ١٢، ١٥، ١٦، ١٨، ٢٠، ٢٤، ٢٥، ٣٠، ٣٦) موزعة على ٣٦ خانة.']
+]);
+
+/* Session 2 Warmup (Exercise 5: Coin & Die) */
+$('#s2WarmBtns').addEventListener('click',e=>{
+  const b=e.target.closest('button');if(!b)return;
+  const ok=b.dataset.ans==='right';
+  $('#s2WarmFb').className='fb '+(ok?'ok':'no');
+  $('#s2WarmFb').innerHTML=ok
+    ?'✓ ممتاز! النتائج التي تحقق «صورة وعدد زوجي» هي ٣ نتائج: (ص ، ٢) ، (ص ، ٤) ، (ص ، ٦) من أصل ١٢ نتيجة ← '+frac(3,12)+' = '+frac(1,4)+'.'
+    :'✗ راجع الصف الأول في الجدول أعلاه: ابحث عن (ص) مع الأعداد الزوجية (٢، ٤، ٦) من أصل ١٢ نتيجة.';
+});
+
+initFlow('s2FlowList',[
+  ['٤','دقائق','التهيئة: رمي عملة وحجر نرد معاً (تمرين ٥)','يعرض جدول الـ ١٢ نتيجة المتنافية (صورة/كتابة مع ١–٦) ويسأل عن احتمال صورة وعدد زوجي.','يستخرج النواتج الثلاث من الجدول ويبسّط الكسر إلى '+frac(1,4)+'.'],
+  ['٥','دقائق','التعلّم القبلي ومفهوم الجداول ذات الاتجاهين','يراجع مبدأ العدّ الأساسي وسبب تكرار الأقسام المتساوية في الدوّار ومعنى السحب دون إرجاع.','يتفاعل مع بطاقات التقليب التفاعلية لاسترجاع القواعد.'],
+  ['٩','دقائق','المختبر التفاعلي: تمارين (٥، ٦، ٧، ٨، ٩)','يشرح جداول الجمع والضرب (تمارين ٦ و٧)، ويفسّر القطر المستحيل (x) في تمرين (٨)، وجدول لعبة حجر ورقة مقص (تمرين ٩).','يظلل الخلايا في الجداول الخمسة تلقائياً أو يدوياً ويدخل الكسور للتحقق الفوري.'],
+  ['٩','دقائق','أنشطة التمايز: مسارات الحصة الثانية','يوزّع الطلاب على المسارات الثلاثة (العملة والنرد، ضرب حجري النرد، السحب دون إرجاع والألعاب).','يحل تمارين مساره مستعيناً بالتلميحات الموجهة ويتحقق من إجاباته.'],
+  ['٥','دقائق','مسابقة الحصة الثانية والتقويم التكويني','يدير مسابقة المجموعات الصفية للحصة الثانية (٣٠ ثانية لكل سؤال).','تتنافس المجموعات في المسابقة ويجيب الطالب عن أسئلة التقويم التكويني.'],
+  ['٣','دقائق','الغلق والتقويم الختامي والواجب','يلخّص الحصة الثانية بالخريطة الذهنية ويكلّف الطلاب بواجب الحصة الثانية.','يحل التقويم الختامي للحصة الثانية ويرسل الواجب للمعلم.']
+]);
+
+/* Session 2 Interactive Lab Checks (Ex 5, Ex 6, Ex 7, Ex 8, Ex 9 Interactive Tables) */
+{
+  const gcd=(a,b)=>b===0?a:gcd(b,a%b);
+
+  function buildInteractiveTable(cfg){
+    const filtersEl=$('#'+cfg.filtersId), wrapEl=$('#'+cfg.wrapId), infoEl=$('#'+cfg.infoId);
+    let curKey=cfg.defaultKey, manual=false, manualSet=new Set();
+
+    function syncBtns(){
+      $$('button[data-f]',filtersEl).forEach(b=>b.classList.toggle('on',!manual && b.dataset.f===curKey));
+      const mBtn=$('button[data-act="manual"]',filtersEl);
+      if(mBtn) mBtn.classList.toggle('on',manual);
+    }
+
+    function render(){
+      const preset=(!manual && curKey)?cfg.presets[curKey]:null;
+      let html=`<table class="tw-table"><thead><tr><th class="sub-h">${cfg.corner}</th>`;
+      cfg.cols.forEach(c=>html+=`<th>${c}</th>`);
+      html+=`</tr></thead><tbody>`;
+      let cnt=0;
+      cfg.rows.forEach((rLabel,rIdx)=>{
+        html+=`<tr><th>${rLabel}</th>`;
+        cfg.cols.forEach((_,cIdx)=>{
+          const key=`${rIdx}-${cIdx}`;
+          const cell=cfg.cell(rIdx,cIdx);
+          if(cell.imp){
+            html+=`<td class="imp">${cell.txt}</td>`;
+          }else{
+            const hit=manual?manualSet.has(key):(preset?preset.fn(rIdx,cIdx):false);
+            if(hit)cnt++;
+            html+=`<td data-r="${rIdx}" data-c="${cIdx}" class="${hit?'hl':''}">${cell.txt}</td>`;
+          }
+        });
+        html+=`</tr>`;
+      });
+      html+=`</tbody></table>`;
+      wrapEl.innerHTML=html;
+
+      if(manual){
+        if(cnt===0){
+          infoEl.innerHTML=`✍️ <b>وضع التظليل اليدوي نشط:</b> انقر على خلايا الجدول (من أصل ${ar(cfg.total)} نتيجة ممكنة) لتظليلها وحساب الاحتمال تلقائياً في أبسط صورة.`;
+        }else{
+          const g=gcd(cnt,cfg.total), sn=cnt/g, sd=cfg.total/g;
+          const simp=(g>1 && sd!==1)?` = ${frac(sn,sd)} (في أبسط صورة)`:(sd===1?` = ١`:'');
+          infoEl.innerHTML=`✍️ <b>تظليل الطالب اليدوي:</b> قمت بتظليل <b>${ar(cnt)}</b> نتيجة من أصل ${ar(cfg.total)} ← الاحتمال = ${frac(cnt,cfg.total)}${simp}`;
+        }
+      }else if(preset){
+        infoEl.innerHTML=preset.txt;
+      }else{
+        infoEl.innerHTML=`تم محو التظليل (٠ من ${ar(cfg.total)}). اختر حدثاً أو اضغط «✍️ تظليل الطالب يدوياً» وانقر على الخلايا.`;
+      }
+      syncBtns();
+    }
+
+    filtersEl.addEventListener('click',e=>{
+      const b=e.target.closest('button');if(!b)return;
+      if(b.dataset.act==='manual'){
+        manual=true; curKey=null; render(); return;
+      }
+      if(b.dataset.act==='clear'){
+        manualSet.clear(); curKey=null; render(); return;
+      }
+      if(b.dataset.f){
+        manual=false; curKey=b.dataset.f; render();
+      }
+    });
+
+    wrapEl.addEventListener('click',e=>{
+      const td=e.target.closest('td[data-r]');if(!td)return;
+      if(!manual){
+        manual=true; curKey=null; manualSet.clear();
+      }
+      const key=`${td.dataset.r}-${td.dataset.c}`;
+      if(manualSet.has(key)) manualSet.delete(key);
+      else manualSet.add(key);
+      render();
+    });
+
+    render();
+  }
+
+  /* 1) Exercise 6: Spinners (9 outcomes) */
+  const sp1=[1,1,3], sp2=[2,3,5];
+  buildInteractiveTable({
+    filtersId:'ex6Filters', wrapId:'ex6TableWrap', infoId:'ex6InfoBox',
+    corner:'+', cols:sp2.map(ar), rows:sp1.map(ar), total:9, defaultKey:'s3',
+    cell:(r,c)=>({txt:ar(sp1[r]+sp2[c])}),
+    presets:{
+      s3:{fn:(r,c)=>sp1[r]+sp2[c]===3, txt:'(١) إجمالي ٣: يظهر مرتين (١+٢ ، ١+٢) من أصل ٩ نتائج ← '+frac(2,9)},
+      s6:{fn:(r,c)=>sp1[r]+sp2[c]===6, txt:'(٢) إجمالي ٦: يظهر ٣ مرات (١+٥ ، ١+٥ ، ٣+٣) من ٩ ← '+frac(3,9)+' = '+frac(1,3)},
+      ge5:{fn:(r,c)=>sp1[r]+sp2[c]>=5, txt:'(٣) ٥ أو أكثر: يوجد ٥ نواتج (٦، ٦، ٥، ٦، ٨) من أصل ٩ ← '+frac(5,9)},
+      even:{fn:(r,c)=>(sp1[r]+sp2[c])%2===0, txt:'(٤) عدد زوجي: يوجد ٦ أعداد زوجية (٤، ٦، ٤، ٦، ٦، ٨) من أصل ٩ ← '+frac(6,9)+' = '+frac(2,3)}
+    }
+  });
+
+  $('#checkEx6').onclick=()=>{
+    checkFrac('n6_1','d6_1','f6_1','s6_1',2,9);
+    checkFrac('n6_2','d6_2','f6_2','s6_2',1,3);
+    checkFrac('n6_3','d6_3','f6_3','s6_3',5,9);
+    checkFrac('n6_4','d6_4','f6_4','s6_4',2,3);
+  };
+
+  /* 2) Exercise 7: Multiplication of Two Dice (36 outcomes) */
+  buildInteractiveTable({
+    filtersId:'mulFilters', wrapId:'mulTableWrap', infoId:'mulInfoBox',
+    corner:'×', cols:[1,2,3,4,5,6].map(ar), rows:[1,2,3,4,5,6].map(ar), total:36, defaultKey:'12',
+    cell:(r,c)=>({txt:ar((r+1)*(c+1))}),
+    presets:{
+      '12':{fn:(r,c)=>(r+1)*(c+1)===12, txt:'(١) ناتج الضرب = ١٢: يظهر ٤ مرات (٢×٦، ٣×٤، ٤×٣، ٦×٢) من ٣٦ ← '+frac(4,36)+' = '+frac(1,9)},
+      'not12':{fn:(r,c)=>(r+1)*(c+1)!==12, txt:'(٢) ناتج الضرب ليس ١٢: ٣٢ خانة من ٣٦ ← '+frac(32,36)+' = '+frac(8,9)},
+      'lt12':{fn:(r,c)=>(r+1)*(c+1)<12, txt:'(٣) أصغر من ١٢: يوجد ١٩ ناتجاً أصغر من ١٢ من أصل ٣٦ ← '+frac(19,36)},
+      'gt17':{fn:(r,c)=>(r+1)*(c+1)>17, txt:'(٤) أكبر من ١٧ (١٨، ٢٠، ٢٤، ٢٥، ٣٠، ٣٦): يوجد ١٠ نواتج من ٣٦ ← '+frac(10,36)+' = '+frac(5,18)},
+      'even':{fn:(r,c)=>((r+1)*(c+1))%2===0, txt:'(٥) عدد زوجي: ٢٧ خانة من أصل ٣٦ (لأن الفردي فقط عندما يكون العددان فرديين: ٣×٣ = ٩) ← '+frac(27,36)+' = '+frac(3,4)}
+    }
+  });
+
+  /* 3) Exercise 8: Hassan's Pens Without Replacement (20 valid outcomes) */
+  const penLabels=['أزرق ١','أزرق ٢','أزرق ٣','أزرق ٤','أحمر'];
+  const penShort=['ز١','ز٢','ز٣','ز٤','ح'];
+  buildInteractiveTable({
+    filtersId:'ex8Filters', wrapId:'ex8TableWrap', infoId:'ex8InfoBox',
+    corner:'الأول \\ الثاني', cols:penLabels, rows:penLabels, total:20, defaultKey:'bb',
+    cell:(r,c)=>r===c?{imp:true,txt:'x'}:{txt:`(${penShort[r]} ، ${penShort[c]})`},
+    presets:{
+      bb:{fn:(r,c)=>r<4 && c<4, txt:'(١) كلا القلمين باللون الأزرق: ١٢ اختياراً ممكناً من أصل ٢٠ ← '+frac(12,20)+' = '+frac(3,5)},
+      r1:{fn:(r,c)=>r===4, txt:'(٢) القلم الأول باللون الأحمر: ٤ اختيارات من أصل ٢٠ ← '+frac(4,20)+' = '+frac(1,5)},
+      anyr:{fn:(r,c)=>r===4 || c===4, txt:'(٣) أحد الأقلام أحمر (الأول أحمر أو الثاني أحمر): ٨ اختيارات من أصل ٢٠ ← '+frac(8,20)+' = '+frac(2,5)}
+    }
+  });
+
+  $('#checkEx8').onclick=()=>{
+    checkFrac('n8_1','d8_1','f8_1','s8_1',3,5);
+    checkFrac('n8_2','d8_2','f8_2','s8_2',1,5);
+    checkFrac('n8_3','d8_3','f8_3','s8_3',2,5);
+  };
+
+  /* 4) Exercise 9: Rock Paper Scissors (9 outcomes) */
+  const rpsCols=['🪨 حجر','📄 ورقة','✂️ مقص'];
+  const rpsOutcome=[
+    ['تعادل','فوز خديجة','فوز مهنّد'],
+    ['فوز مهنّد','تعادل','فوز خديجة'],
+    ['فوز خديجة','فوز مهنّد','تعادل']
+  ];
+  buildInteractiveTable({
+    filtersId:'ex9Filters', wrapId:'ex9TableWrap', infoId:'ex9InfoBox',
+    corner:'مهنّد \\ خديجة', cols:rpsCols, rows:rpsCols, total:9, defaultKey:'diff',
+    cell:(r,c)=>({txt:rpsOutcome[r][c]}),
+    presets:{
+      diff:{fn:(r,c)=>r!==c, txt:'(ب) لن يختارا نفس الشيء: ٦ نتائج من أصل ٩ ← '+frac(6,9)+' = '+frac(2,3)},
+      mwin:{fn:(r,c)=>rpsOutcome[r][c]==='فوز مهنّد', txt:'(ج) أن يهزم مهنّد خديجة: ٣ نتائج من أصل ٩ ← '+frac(3,9)+' = '+frac(1,3)},
+      tie:{fn:(r,c)=>r===c, txt:'التعادل (نفس الشيء): ٣ نتائج من أصل ٩ ← '+frac(3,9)+' = '+frac(1,3)}
+    }
+  });
+
+  $('#checkEx9').onclick=()=>{
+    checkFrac('n9_b','d9_b','f9_b','s9_b',2,3);
+    checkFrac('n9_c','d9_c','f9_c','s9_c',1,3);
+  };
+
+  /* 5) Exercise 5: Coin and Die (12 outcomes) */
+  const coinRows=['صورة (ص)','كتابة (ك)'];
+  const coinShort=['ص','ك'];
+  buildInteractiveTable({
+    filtersId:'ex5Filters', wrapId:'ex5TableWrap', infoId:'ex5InfoBox',
+    corner:'العملة \\ حجر النرد', cols:[1,2,3,4,5,6].map(ar), rows:coinRows, total:12, defaultKey:'t1',
+    cell:(r,c)=>({txt:`(${coinShort[r]} ، ${ar(c+1)})`}),
+    presets:{
+      t1:{fn:(r,c)=>r===1 && c===0, txt:'(١) كتابة والعدد ١: نتيجة واحدة (ك ، ١) من أصل ١٢ ← '+frac(1,12)},
+      heven:{fn:(r,c)=>r===0 && (c+1)%2===0, txt:'(٢) صورة وعدد زوجي: ٣ نتائج (ص،٢)، (ص،٤)، (ص،٦) من أصل ١٢ ← '+frac(3,12)+' = '+frac(1,4)},
+      t56:{fn:(r,c)=>r===1 && (c===4 || c===5), txt:'(٣) كتابة و ٥ أو ٦: نتيجتان (ك،٥)، (ك،٦) من أصل ١٢ ← '+frac(2,12)+' = '+frac(1,6)}
+    }
+  });
+}
+
+/* Session 2 Differentiation */
+initDiff('s2DiffTabs','s2DiffContent','s2d',{
+  1:[
+    {tag:'تمرين (٥ ب-١) — عملة وحجر نرد (١٢ نتيجة)',cls:'g',q:'يرمي هلال عملة وحجر نرد ذا ستة أوجه. أوجد احتمال الحصول على كتابة والعدد ١.',scaff:'توجد نتيجة واحدة فقط هي (كتابة ، ١) من أصل ١٢ نتيجة متنافية.',n:1,d:12,sol:frac(1,12)},
+    {tag:'تمرين (٥ ب-٢) — عملة وحجر نرد (أبسط صورة)',cls:'g',q:'أوجد احتمال الحصول على صورة وعدد زوجي (في أبسط صورة).',scaff:'النواتج هي (صورة ، ٢) ، (صورة ، ٤) ، (صورة ، ٦) وعددها ٣ من ١٢ ← '+frac(3,12)+'.',n:1,d:4,sol:frac(3,12)+' = '+frac(1,4)},
+    {tag:'تمرين (٥ ب-٣) — عملة وحجر نرد (أبسط صورة)',cls:'g',q:'أوجد احتمال الحصول على كتابة و ٥ أو ٦ (في أبسط صورة).',scaff:'النتيجتان هما (كتابة ، ٥) و (كتابة ، ٦) وعددها ٢ من ١٢ ← '+frac(2,12)+'.',n:1,d:6,sol:frac(2,12)+' = '+frac(1,6)}
+  ],
+  2:[
+    {tag:'تمرين (٧ ج-١) — ضرب عددي حجري النرد (أبسط صورة)',cls:'m',q:'ترمي سناء حجري نرد ذوي ستة أوجه معاً وتضرب الأرقام التي تحصل عليها. أوجد احتمال أن ناتج الضرب هو ١٢ (في أبسط صورة).',scaff:'الأزواج التي حاصل ضربها ١٢ هي: (٢،٦)، (٣،٤)، (٤،٣)، (٦،٢) وعددها ٤ من ٣٦ ← '+frac(4,36)+'.',n:1,d:9,sol:frac(4,36)+' = '+frac(1,9)},
+    {tag:'تمرين (٧ ج-٤) — ضرب عددي حجري النرد (أبسط صورة)',cls:'m',q:'أوجد احتمال أن ناتج الضرب أكبر من ١٧ (في أبسط صورة).',scaff:'النواتج الأكبر من ١٧ هي: ١٨ (٣×٦، ٦×٣)=٢، ٢٠ (٤×٥، ٥×٤)=٢، ٢٤ (٤×٦، ٦×٤)=٢، ٢٥ (٥×٥)=١، ٣٠ (٥×٦، ٦×٥)=٢، ٣٦ (٦×٦)=١ ← المجموع ١٠ من ٣٦ ← '+frac(10,36)+'.',n:5,d:18,sol:frac(10,36)+' = '+frac(5,18)},
+    {tag:'تمرين (٧ ج-٥) — ناتج الضرب عدد زوجي (أبسط صورة)',cls:'m',q:'أوجد احتمال أن ناتج الضرب عدد زوجي (في أبسط صورة).',scaff:'يكون ناتج الضرب فردياً فقط إذا كان العددان فرديين (٣×٣ = ٩ حالات)، والباقي ٢٧ حالة زوجية من ٣٦.',n:3,d:4,sol:frac(27,36)+' = '+frac(3,4)}
+  ],
+  3:[
+    {tag:'تمرين (٨ ج-١) — أقلام حسن دون إرجاع (أبسط صورة)',cls:'h',q:'لدى حسن ٤ أقلام زرقاء وقلم واحد أحمر في جيبه. التقط أحدهما دون النظر ثم التقط آخر (٢٠ نتيجة ممكنة). أوجد احتمال أن كلا القلمين باللون الأزرق.',scaff:'القلم الأول أزرق (٤ طرق) والثاني أزرق آخر (٣ طرق) = ١٢ نتيجة من ٢٠ ← '+frac(12,20)+'.',n:3,d:5,sol:frac(12,20)+' = '+frac(3,5)},
+    {tag:'تمرين (٨ ج-٣) — أحد الأقلام أحمر (أبسط صورة)',cls:'h',q:'في تجربة أقلام حسن (٢٠ نتيجة ممكنة)، أوجد احتمال أن يكون أحد الأقلام أحمر.',scaff:'إما القلم الأول أحمر (٤ حالات) أو القلم الثاني أحمر (٤ حالات) = ٨ حالات من ٢٠ ← '+frac(8,20)+'.',n:2,d:5,sol:frac(8,20)+' = '+frac(2,5)},
+    {tag:'تمرين (٩ ج) — لعبة حجر، ورقة، مقص',cls:'h',q:'يلعب مهنّد وخديجة لعبة «حجر، ورقة، مقص» مرة واحدة. ما احتمال أن يهزم مهنّد خديجة في أبسط صورة؟',scaff:'توجد ٩ نتائج متساوية، يفوز مهنّد في ٣ منها (حجر ضد مقص، ورقة ضد حجر، مقص ضد ورقة) ← '+frac(3,9)+'.',n:1,d:3,sol:frac(3,9)+' = '+frac(1,3)}
+  ]
+});
+
+/* Session 2 Formative & Final Quizzes */
+const S2_FORM=[
+  {q:'يرمي هلال عملة وحجر نرد ذا ستة أوجه. ما احتمال الحصول على كتابة و ٥ أو ٦ في أبسط صورة؟',o:[frac(2,12),frac(1,6),frac(1,12),frac(1,4)],a:1,w:'توجد نتيجتان هما (كتابة ، ٥) و (كتابة ، ٦) من أصل ١٢ نتيجة ← '+frac(2,12)+' = '+frac(1,6)+'.'},
+  {q:'في تمرين (٦)، لدى نور دوّاران بأقسام (١، ١، ٣) و (٢، ٣، ٥). ما احتمال الحصول على إجمالي يساوي ٦ في أبسط صورة؟',o:[frac(3,9),frac(1,3),frac(2,9),frac(1,6)],a:1,w:'الإجمالي ٦ يظهر ٣ مرات (١+٥، ١+٥، ٣+٣) من أصل ٩ نتائج ← '+frac(3,9)+' = '+frac(1,3)+'.'},
+  {q:'لماذا يوجد الحرف (x) متكرراً باتجاه الخط القُطري في جدول أقلام حسن (تمرين ٨)؟',o:['لأن الأقلام زرقاء','لأنه يشير إلى الاختيارات المستحيلة (عدم إمكانية سحب القلم نفسه مرتين)','لأن العدد الكلي ٢٥','لأن القلم الأحمر مفقود'],a:1,w:'يشير الرمز (x) في الجدول إلى الاختيارات المستحيلة لأن السحب تم دون إرجاع.'},
+  {q:'في لعبة «حجر، ورقة، مقص» بين مهنّد وخديجة، ما احتمال ألا يختارا نفس الشيء؟',o:[frac(1,3),frac(2,3),frac(3,9),frac(6,8)],a:1,w:'توجد ٣ حالات تعادل من ٩، والباقي ٦ حالات مختلفة من ٩ ← '+frac(6,9)+' = '+frac(2,3)+'.'}
+];
+renderQuiz($('#s2FormQuiz'),S2_FORM,true,(c,n)=>{
+  $('#s2FormScore').textContent=`النتيجة: ${ar(c)} من ${ar(n)}`+(n===S2_FORM.length?(c===n?' · ممتاز!':c>=3?' · أحسنت':' · راجع الأمثلة'):'');
+});
+
+const S2_FIN=[
+  {q:'في تمرين (٦)، لدى نور دوّاران بأقسام (١، ١، ٣) و (٢، ٣، ٥). ما احتمال الحصول على إجمالي يساوي ٥ أو أكثر؟',o:[frac(4,9),frac(5,9),frac(2,3),frac(1,3)],a:1,w:'المجاميع ٥ أو أكثر هي (٦، ٦، ٥، ٦، ٨) وعددها ٥ من ٩ ← '+frac(5,9)+'.'},
+  {q:'ترمي سناء حجري نرد وتضرب الأرقام التي تحصل عليها (تمرين ٧). ما احتمال أن ناتج الضرب عدد زوجي في أبسط صورة؟',o:[frac(1,2),frac(3,4),frac(2,3),frac(27,36)],a:1,w:'٢٧ خانة من ٣٦ ناتج ضربها زوجي (بينما ٩ خانات فقط فردية) ← '+frac(27,36)+' = '+frac(3,4)+'.'},
+  {q:'في تجربة سناء لضرب عددي حجري النرد (تمرين ٧)، كم عدد نواتج الضرب المختلفة المتاحة؟',o:['٣٦','١٨','١١','١٢'],a:1,w:'نواتج الضرب المختلفة هي ١٨ عدداً (١، ٢، ٣، ٤، ٥، ٦، ٨، ٩، ١٠، ١٢، ١٥، ١٦، ١٨، ٢٠، ٢٤، ٢٥، ٣٠، ٣٦).'},
+  {q:'لدى حسن ٤ أقلام زرقاء وقلم واحد أحمر، سحب قلمين دون إرجاع (تمرين ٨). ما احتمال أن يكون كلا القلمين أزرق؟',o:[frac(12,25),frac(3,5),frac(4,5),frac(16,25)],a:1,w:'عدد الحالات الممكنة ٢٠، وحالات (أزرق، أزرق) ١٢ حالة ← '+frac(12,20)+' = '+frac(3,5)+'.'},
+  {q:'في تجربة أقلام حسن (تمرين ٨)، ما احتمال أن يكون أحد الأقلام أحمر في أبسط صورة؟',o:[frac(1,5),frac(2,5),frac(8,25),frac(4,20)],a:1,w:'٤ حالات (الأول أحمر) + ٤ حالات (الثاني أحمر) = ٨ من ٢٠ ← '+frac(8,20)+' = '+frac(2,5)+'.'},
+  {q:'يلعب مهنّد وخديجة «حجر، ورقة، مقص» مرة واحدة (تمرين ٩). ما احتمال أن يهزم مهنّد خديجة؟',o:[frac(1,9),frac(1,3),frac(2,3),frac(1,2)],a:1,w:'يفوز مهنّد في ٣ نتائج من أصل ٩ نتائج متساوية ← '+frac(3,9)+' = '+frac(1,3)+'.'}
+];
+let s2Fin=renderQuiz($('#s2FinQuiz'),S2_FIN,false);
+$('#s2FinSubmit').onclick=()=>{
+  const c=s2Fin.grade(), n=S2_FIN.length, p=Math.round(c/n*100);
+  const lvl=p>=90?'ممتاز':p>=75?'جيد جدًا':p>=60?'جيد':'يحتاج إلى مراجعة';
+  const nm=$('#s2FinName').value.trim()||'الطالب';
+  $('#s2FinResult').innerHTML=`<div class="result"><span>${nm} · الحصة الثانية</span><b class="num">${ar(c)} / ${ar(n)}</b><span>النسبة ${ar(p)}٪ · المستوى: ${lvl}</span></div>`;
+  $('#s2FinResult').scrollIntoView({behavior:RM?'auto':'smooth',block:'nearest'});
+};
+$('#s2FinReset').onclick=()=>{s2Fin=renderQuiz($('#s2FinQuiz'),S2_FIN,false);$('#s2FinResult').innerHTML=''};
+
+/* Session 2 Competition */
+initCompetition('s2CompBox','prob8-73-s2-comp',[
+  {q:'كم عدد النتائج المتنافية عند رمي عملة معدنية وحجر نرد ذي ستة أوجه معاً؟',o:['٨','١٢','٣٦','٦'],a:1,w:'٢ × ٦ = ١٢ نتيجة متنافية.'},
+  {q:'عند رمي عملة وحجر نرد، ما احتمال الحصول على صورة وعدد زوجي في أبسط صورة؟',o:[frac(3,12),frac(1,4),frac(1,2),frac(1,6)],a:1,w:frac(3,12)+' = '+frac(1,4)+'.'},
+  {q:'عند ضرب عددي حجري النرد معاً، ما احتمال أن يكون ناتج الضرب ١٢ في أبسط صورة؟',o:[frac(1,9),frac(4,36),frac(1,12),frac(1,6)],a:0,w:'٤ أزواج (٢×٦، ٣×٤، ٤×٣، ٦×٢) من ٣٦ ← '+frac(4,36)+' = '+frac(1,9)+'.'},
+  {q:'لدى حسن ٤ أقلام زرقاء وقلم أحمر، سحب قلمين دون إرجاع. كم عدد الاختيارات الممكنة؟',o:['٢٥','٢٠','١٦','١٠'],a:1,w:'٢٥ خانة ناقص ٥ خانات مستحيلة (x) = ٢٠ اختياراً ممكناً.'},
+  {q:'في تجربة أقلام حسن (٢٠ اختياراً)، ما احتمال أن يكون القلم الأول باللون الأحمر؟',o:[frac(1,4),frac(1,5),frac(2,5),frac(4,25)],a:1,w:'٤ اختيارات يبدأ فيها الأول بالأحمر من ٢٠ ← '+frac(4,20)+' = '+frac(1,5)+'.'},
+  {q:'في لعبة «حجر، ورقة، مقص» مرة واحدة، ما احتمال فوز مهنّد على خديجة؟',o:[frac(1,3),frac(2,3),frac(1,9),frac(1,2)],a:0,w:'٣ حالات فوز من ٩ نتائج متساوية ← '+frac(3,9)+' = '+frac(1,3)+'.'}
+]);
+
+/* Session 2 Homework */
+initHomework('s2','prob8-73-s2-hw','الحصة الثانية: الجداول ذات الاتجاهين للعمليات والتجارب المركبة',[
+  'ترمي سناء حجري نرد ذوي ستة أوجه معاً وتضرب الأرقام التي تحصل عليها. (أ) ارسم جدولاً لتوضيح القيم المحتملة لناتج الضرب. (ب) كم عدد نواتج الضرب المختلفة المتاحة؟ (ج) أوجد احتمال أن ناتج الضرب هو: (١) ١٢ ، (٢) ليس ١٢ ، (٣) أصغر من ١٢ (تمرين ٧).',
+  'لدى حسن أربعة أقلام زرقاء وقلم واحد أحمر في جيبه. التقط أحدهما دون النظر ثم التقط آخر. (أ) أكمل الجدول لتوضيح الاختيارات المحتملة. (ب) لماذا يوجد الحرف (x) متكرراً باتجاه الخط القُطري؟ (ج) أوجد احتمال أن: (١) كلا القلمين باللون الأزرق ، (٢) القلم الأول باللون الأحمر ، (٣) أحد الأقلام أحمر (تمرين ٨).'
+]);
+
+/* Session 2 Mind Map SVG */
+{
+  function svgFrac(x,y,n,d,fill='var(--ink)'){
+    return `<g font-family="IBM Plex Sans Arabic,sans-serif" font-weight="700" font-size="14" fill="${fill}" text-anchor="middle">
+      <text x="${x}" y="${y-4}">${ar(n)}</text>
+      <line x1="${x-14}" y1="${y}" x2="${x+14}" y2="${y}" stroke="${fill}" stroke-width="1.5"/>
+      <text x="${x}" y="${y+14}">${ar(d)}</text>
+    </g>`;
+  }
+  const B=[
+    {t:'تمرين (٥) و (٦): العملة والدوّاران',x:835,y:70,c:'--f2',l:['عملة وحجر نرد: ٢ × ٦ = ١٢ نتيجة','دوّاران بثلاثة أقسام: ٣ × ٣ = ٩ نتائج','تكرار الرقم في الدوّار يضمن تكافؤ الفرص']},
+    {t:'تمرين (٧): ضرب حجري النرد',x:835,y:345,c:'--f1',l:['جدول ٦ × ٦ = ٣٦ خانة ضرب','١٨ ناتج ضرب مختلفاً متاحاً','الناتج الزوجي = ٢٧ خانة من ٣٦']},
+    {t:'تمرين (٨): السحب دون إرجاع',x:165,y:70,c:'--f3',l:['٤ أقلام زرقاء + ١ أحمر = ٥ أقلام','الرمز (x) في القطر: اختيارات مستحيلة','عدد النواتج الممكنة = ٢٥ − ٥ = ٢٠']},
+    {t:'تمرين (٩): حجر، ورقة، مقص',x:165,y:345,c:'--f5',l:['٣ × ٣ = ٩ نتائج متساوية الاحتمال','التعادل (نفس الشيء) = ٣ من ٩','فوز كل لاعب = ٣ نتائج من ٩']}
+  ];
+  const W=1000, Hh=630, cx=500, cy=285;
+  let s=`<svg viewBox="0 0 ${W} ${Hh}" role="img" aria-label="خريطة ذهنية للحصة الثانية" style="font-family:'IBM Plex Sans Arabic',sans-serif">`;
+  B.forEach(b=>{s+=`<path d="M${cx},${cy} Q${(cx+b.x)/2},${b.y} ${b.x},${b.y}" style="fill:none;stroke:var(${b.c});stroke-width:5;stroke-linecap:round"/>`});
+  s+=`<path d="M${cx},${cy} L${cx},490" style="fill:none;stroke:var(--f4);stroke-width:5;stroke-linecap:round"/>`;
+
+  B.forEach(b=>{
+    b.l.forEach((_,i)=>{const y=b.y+58+i*46;s+=`<line x1="${b.x}" y1="${b.y+22}" x2="${b.x}" y2="${y}" style="stroke:var(${b.c});stroke-width:2"/>`});
+    s+=`<rect x="${b.x-135}" y="${b.y-24}" width="270" height="48" rx="24" style="fill:var(${b.c})"/><text x="${b.x}" y="${b.y+7}" text-anchor="middle" style="fill:#fff;font-size:17px;font-weight:800;font-family:'Cairo',sans-serif">${b.t}</text>`;
+    b.l.forEach((l,i)=>{const y=b.y+58+i*46;s+=`<rect x="${b.x-150}" y="${y-17}" width="300" height="34" rx="9" style="fill:var(--soft);stroke:var(${b.c});stroke-width:1.5"/><text x="${b.x}" y="${y+6}" text-anchor="middle" style="fill:var(--ink);font-size:15px">${l}</text>`});
+  });
+
+  s+=`<rect x="330" y="465" width="340" height="48" rx="24" style="fill:var(--f4)"/><text x="500" y="496" text-anchor="middle" style="fill:#fff;font-size:18px;font-weight:800;font-family:'Cairo',sans-serif">أمثلة التبسيط من الحصة الثانية</text>`;
+  s+=`<line x1="500" y1="513" x2="300" y2="560" style="stroke:var(--f4);stroke-width:2"/>`;
+  s+=`<rect x="115" y="545" width="370" height="54" rx="10" style="fill:var(--soft);stroke:var(--f4);stroke-width:1.5"/>`;
+  s+=`<text x="415" y="577" text-anchor="middle" style="fill:var(--ink);font-size:15px;font-weight:700">قلمان أزرقان (تمرين ٨):</text>`;
+  s+=svgFrac(295, 572, 12, 20);
+  s+=`<text x="258" y="577" text-anchor="middle" style="fill:var(--ink);font-size:16px;font-weight:700">=</text>`;
+  s+=svgFrac(225, 572, 3, 5);
+
+  s+=`<line x1="500" y1="513" x2="700" y2="560" style="stroke:var(--f4);stroke-width:2"/>`;
+  s+=`<rect x="520" y="545" width="360" height="54" rx="10" style="fill:var(--soft);stroke:var(--f4);stroke-width:1.5"/>`;
+  s+=`<text x="805" y="577" text-anchor="middle" style="fill:var(--ink);font-size:15px;font-weight:700">فوز مهنّد (تمرين ٩):</text>`;
+  s+=svgFrac(705, 572, 3, 9);
+  s+=`<text x="665" y="577" text-anchor="middle" style="fill:var(--ink);font-size:16px;font-weight:700">=</text>`;
+  s+=svgFrac(625, 572, 1, 3);
+
+  s+=`<rect x="${cx-185}" y="${cy-44}" width="370" height="88" rx="20" style="fill:var(--ink)"/><text x="${cx}" y="${cy-5}" text-anchor="middle" style="fill:var(--paper);font-size:21px;font-weight:800;font-family:'Cairo',sans-serif">الحصة الثانية: ٧-٣</text><text x="${cx}" y="${cy+27}" text-anchor="middle" style="fill:var(--paper);font-size:20px;font-weight:800;font-family:'Cairo',sans-serif">الجداول ذات الاتجاهين</text></svg>`;
+  $('#s2MindMap').innerHTML=s;
+}
+
+/* Session 2 Game */
+initGame('s2',[
+  {given:'رمي عملة وحجر نرد (١٢ نتيجة)',q:'ما احتمال الحصول على كتابة والعدد ١؟',h:'نتيجة واحدة من ١٢ نتيجة متنافية',opts:[frac(1,6),frac(1,12),frac(1,2),frac(2,12)],a:1},
+  {given:'تمرين (٦): دوّاران (١،١،٣) و (٢،٣،٥)',q:'ما احتمال الحصول على إجمالي يساوي ٣؟',h:'الإجمالي ٣ يظهر مرتين (١+٢ ، ١+٢) من ٩',opts:[frac(1,3),frac(2,9),frac(1,9),frac(3,9)],a:1},
+  {given:'تمرين (٧): ضرب عددي حجري النرد',q:'ما احتمال أن يكون ناتج الضرب ١٢ في أبسط صورة؟',h:'٤ خانات (٢×٦، ٣×٤، ٤×٣، ٦×٢) من ٣٦',opts:[frac(1,9),frac(1,12),frac(1,6),frac(4,35)],a:0},
+  {given:'تمرين (٨): ٤ أقلام زرقاء و ١ أحمر دون إرجاع',q:'ما احتمال أن يكون القلم الأول أحمر في أبسط صورة؟',h:'٤ نتائج يبدأ فيها الأول بالأحمر من أصل ٢٠',opts:[frac(1,4),frac(1,5),frac(2,5),frac(4,25)],a:1},
+  {given:'تمرين (٩): لعبة حجر، ورقة، مقص',q:'ما احتمال ألا يختار اللاعبان نفس الشيء؟',h:'٦ نتائج مختلفة من أصل ٩ نتائج متساوية',opts:[frac(1,3),frac(2,3),frac(6,8),frac(1,2)],a:1},
+  {given:'تمرين (٧): ضرب عددي حجري النرد',q:'ما احتمال أن يكون ناتج الضرب عددًا زوجيًا؟',h:'٢٧ خانة زوجية من أصل ٣٦ خانة',opts:[frac(1,2),frac(3,4),frac(2,3),frac(9,36)],a:1}
+]);
+
+})();
+</script>
+</body>
+</html>
